@@ -1,0 +1,1443 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(VERBOSE).SILENT	build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE).SILENT	build/apps/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE).SILENT	build/doctests/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE).SILENT	build/libsponge/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+$(VERBOSE).SILENT	build/tests/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+0	build/compile_commands.json	/^{$/;"	o
+0	compile_commands.json	/^{$/;"	o
+1	build/compile_commands.json	/^{$/;"	o
+1	compile_commands.json	/^{$/;"	o
+10	build/compile_commands.json	/^{$/;"	o
+10	compile_commands.json	/^{$/;"	o
+11	build/compile_commands.json	/^{$/;"	o
+11	compile_commands.json	/^{$/;"	o
+12	build/compile_commands.json	/^{$/;"	o
+12	compile_commands.json	/^{$/;"	o
+13	build/compile_commands.json	/^{$/;"	o
+13	compile_commands.json	/^{$/;"	o
+14	build/compile_commands.json	/^{$/;"	o
+14	compile_commands.json	/^{$/;"	o
+15	build/compile_commands.json	/^{$/;"	o
+15	compile_commands.json	/^{$/;"	o
+16	build/compile_commands.json	/^{$/;"	o
+16	compile_commands.json	/^{$/;"	o
+17	build/compile_commands.json	/^{$/;"	o
+17	compile_commands.json	/^{$/;"	o
+18	build/compile_commands.json	/^{$/;"	o
+18	compile_commands.json	/^{$/;"	o
+2	build/compile_commands.json	/^{$/;"	o
+2	compile_commands.json	/^{$/;"	o
+3	build/compile_commands.json	/^{$/;"	o
+3	compile_commands.json	/^{$/;"	o
+4	build/compile_commands.json	/^{$/;"	o
+4	compile_commands.json	/^{$/;"	o
+5	build/compile_commands.json	/^{$/;"	o
+5	compile_commands.json	/^{$/;"	o
+6	build/compile_commands.json	/^{$/;"	o
+6	compile_commands.json	/^{$/;"	o
+7	build/compile_commands.json	/^{$/;"	o
+7	compile_commands.json	/^{$/;"	o
+8	build/compile_commands.json	/^{$/;"	o
+8	compile_commands.json	/^{$/;"	o
+9	build/compile_commands.json	/^{$/;"	o
+9	compile_commands.json	/^{$/;"	o
+ARCHITECTURE_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+Address	libsponge/util/address.cc	/^Address::Address(const sockaddr *addr, const size_t size) : _size(size) {$/;"	f	class:Address
+Address	libsponge/util/address.cc	/^Address::Address(const string &hostname, const string &service)$/;"	f	class:Address
+Address	libsponge/util/address.cc	/^Address::Address(const string &ip, const uint16_t port)$/;"	f	class:Address
+Address	libsponge/util/address.cc	/^Address::Address(const string &node, const string &service, const addrinfo &hints) : _size() {$/;"	f	class:Address
+Address	libsponge/util/address.hh	/^class Address {$/;"	c
+BadChecksum	libsponge/util/parser.hh	/^    BadChecksum,      \/\/!< Bad checksum$/;"	e	enum:ParseResult
+Buffer	libsponge/util/buffer.hh	/^    Buffer(std::string &&str) noexcept : _storage(std::make_shared<std::string>(std::move(str)))/;"	f	class:Buffer
+Buffer	libsponge/util/buffer.hh	/^class Buffer {$/;"	c
+BufferEmpty	tests/byte_stream_test_harness.cc	/^BufferEmpty::BufferEmpty(const bool buffer_empty) : _buffer_empty(buffer_empty) {}$/;"	f	class:BufferEmpty
+BufferEmpty	tests/byte_stream_test_harness.hh	/^struct BufferEmpty : public ByteStreamExpectation {$/;"	s
+BufferList	libsponge/util/buffer.hh	/^    BufferList(Buffer buffer) : _buffers{buffer} {}$/;"	f	class:BufferList
+BufferList	libsponge/util/buffer.hh	/^    BufferList(std::string &&str) noexcept {$/;"	f	class:BufferList
+BufferList	libsponge/util/buffer.hh	/^class BufferList {$/;"	c
+BufferSize	tests/byte_stream_test_harness.cc	/^BufferSize::BufferSize(const size_t buffer_size) : _buffer_size(buffer_size) {}$/;"	f	class:BufferSize
+BufferSize	tests/byte_stream_test_harness.hh	/^struct BufferSize : public ByteStreamExpectation {$/;"	s
+BufferViewList	libsponge/util/buffer.cc	/^BufferViewList::BufferViewList(const BufferList &buffers) {$/;"	f	class:BufferViewList
+BufferViewList	libsponge/util/buffer.hh	/^    BufferViewList(const char *s) : BufferViewList(std::string_view(s)) {}$/;"	f	class:BufferViewList
+BufferViewList	libsponge/util/buffer.hh	/^    BufferViewList(const std::string &str) : BufferViewList(std::string_view(str)) {}$/;"	f	class:BufferViewList
+BufferViewList	libsponge/util/buffer.hh	/^    BufferViewList(std::string_view str) { _views.push_back({const_cast<char *>(str.data()), str/;"	f	class:BufferViewList
+BufferViewList	libsponge/util/buffer.hh	/^class BufferViewList {$/;"	c
+ByteStream	libsponge/byte_stream.cc	/^ByteStream::ByteStream(const size_t capacity) { DUMMY_CODE(capacity); }$/;"	f	class:ByteStream
+ByteStream	libsponge/byte_stream.hh	/^class ByteStream {$/;"	c
+ByteStreamAction	tests/byte_stream_test_harness.hh	/^struct ByteStreamAction : public ByteStreamTestStep {$/;"	s
+ByteStreamExpectation	tests/byte_stream_test_harness.hh	/^struct ByteStreamExpectation : public ByteStreamTestStep {$/;"	s
+ByteStreamExpectationViolation	tests/byte_stream_test_harness.cc	/^ByteStreamExpectationViolation::ByteStreamExpectationViolation(const std::string &msg) : std::ru/;"	f	class:ByteStreamExpectationViolation
+ByteStreamExpectationViolation	tests/byte_stream_test_harness.hh	/^class ByteStreamExpectationViolation : public std::runtime_error {$/;"	c
+ByteStreamTestHarness	tests/byte_stream_test_harness.cc	/^ByteStreamTestHarness::ByteStreamTestHarness(const std::string &test_name, const size_t capacity/;"	f	class:ByteStreamTestHarness
+ByteStreamTestHarness	tests/byte_stream_test_harness.hh	/^class ByteStreamTestHarness {$/;"	c
+ByteStreamTestStep	tests/byte_stream_test_harness.hh	/^struct ByteStreamTestStep {$/;"	s
+BytesRead	tests/byte_stream_test_harness.cc	/^BytesRead::BytesRead(const size_t bytes_read) : _bytes_read(bytes_read) {}$/;"	f	class:BytesRead
+BytesRead	tests/byte_stream_test_harness.hh	/^struct BytesRead : public ByteStreamExpectation {$/;"	s
+BytesWritten	tests/byte_stream_test_harness.cc	/^BytesWritten::BytesWritten(const size_t bytes_written) : _bytes_written(bytes_written) {}$/;"	f	class:BytesWritten
+BytesWritten	tests/byte_stream_test_harness.hh	/^struct BytesWritten : public ByteStreamExpectation {$/;"	s
+CLANG_FORMAT	etc/clang_format.cmake	/^        set(CLANG_FORMAT ${CLANG_FORMAT_TMP} CACHE STRING "clang-format executable name")$/;"	v
+CLANG_FORMAT_TMP	etc/clang_format.cmake	/^        set (CLANG_FORMAT_TMP $ENV{CLANG_FORMAT})$/;"	v
+CLANG_FORMAT_TMP	etc/clang_format.cmake	/^        set (CLANG_FORMAT_TMP clang-format-6.0)$/;"	v
+CLANG_TIDY	etc/clang_tidy.cmake	/^        set (CLANG_TIDY ${CLANG_TIDY_TMP} CACHE STRING "clang-tidy executable name")$/;"	v
+CLANG_TIDY_CHECKS	etc/clang_tidy.cmake	/^    set (CLANG_TIDY_CHECKS "'*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-a/;"	v
+CLANG_TIDY_TMP	etc/clang_tidy.cmake	/^        set (CLANG_TIDY_TMP $ENV{CLANG_TIDY})$/;"	v
+CLANG_TIDY_TMP	etc/clang_tidy.cmake	/^        set (CLANG_TIDY_TMP clang-tidy)$/;"	v
+CLONEDEV	libsponge/util/tun.cc	/^static constexpr const char *CLONEDEV = "\/dev\/net\/tun";$/;"	v	typeref:typename:const char *	file:
+CMAKE_AR	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
+CMAKE_AR	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
+CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/home\/heiyan\/cs144\/sponge\/build$/;"	m
+CMAKE_BINARY_DIR	build/apps/Makefile	/^CMAKE_BINARY_DIR = \/home\/heiyan\/cs144\/sponge\/build$/;"	m
+CMAKE_BINARY_DIR	build/doctests/Makefile	/^CMAKE_BINARY_DIR = \/home\/heiyan\/cs144\/sponge\/build$/;"	m
+CMAKE_BINARY_DIR	build/libsponge/Makefile	/^CMAKE_BINARY_DIR = \/home\/heiyan\/cs144\/sponge\/build$/;"	m
+CMAKE_BINARY_DIR	build/tests/Makefile	/^CMAKE_BINARY_DIR = \/home\/heiyan\/cs144\/sponge\/build$/;"	m
+CMAKE_BUILD_TYPE	etc/build_type.cmake	/^        set (CMAKE_BUILD_TYPE "${default_build_type}" CACHE STRING "Choose the type of build." F/;"	v
+CMAKE_BUILD_TYPE_SHADOW	etc/build_type.cmake	/^    set (CMAKE_BUILD_TYPE_SHADOW ${CMAKE_BUILD_TYPE} CACHE STRING "used to detect changes in bui/;"	v
+CMAKE_C11_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C11_COMPILE_FEATURES "c_std_11;c_static_assert")$/;"	v
+CMAKE_C90_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C90_COMPILE_FEATURES "c_std_90;c_function_prototypes")$/;"	v
+CMAKE_C99_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C99_COMPILE_FEATURES "c_std_99;c_restrict;c_variadic_macros")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_C_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/apps/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/doctests/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/libsponge/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	build/tests/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMPILER_IS_CYGWIN	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_CYGWIN	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_GNUCC	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCC 1)$/;"	v
+CMAKE_COMPILER_IS_GNUCXX	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX 1)$/;"	v
+CMAKE_COMPILER_IS_MINGW	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_COMPILER_IS_MINGW	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_CROSSCOMPILING	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/apps/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/doctests/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/libsponge/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/tests/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CXX11_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
+CMAKE_CXX14_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
+CMAKE_CXX17_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
+CMAKE_CXX20_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
+CMAKE_CXX98_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
+CMAKE_CXX_ABI_COMPILED	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_CXX_COMPILER	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/usr\/bin\/c++")$/;"	v
+CMAKE_CXX_COMPILER_ABI	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v
+CMAKE_CXX_COMPILER_AR	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/usr\/bin\/gcc-ar-9")$/;"	v
+CMAKE_CXX_COMPILER_ARG1	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
+CMAKE_CXX_COMPILER_ENV_VAR	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/apps/CMakeFiles/webget.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/doctests/CMakeFiles/address_dt.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/doctests/CMakeFiles/parser_dt.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/doctests/CMakeFiles/socket_dt.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/tests/CMakeFiles/byte_stream_capacity.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/tests/CMakeFiles/byte_stream_many_writes.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/tests/CMakeFiles/byte_stream_one_write.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake	/^set(CMAKE_CXX_COMPILER_ID "GNU")$/;"	v
+CMAKE_CXX_COMPILER_ID_RUN	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_CXX_COMPILER_LOADED	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
+CMAKE_CXX_COMPILER_RANLIB	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/usr\/bin\/gcc-ranlib-9")$/;"	v
+CMAKE_CXX_COMPILER_VERSION	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "9.3.0")$/;"	v
+CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_CXX_COMPILER_WORKS	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_CXX_COMPILER_WRAPPER	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
+CMAKE_CXX_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
+CMAKE_CXX_FLAGS	etc/cflags.cmake	/^    set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wloop-analysis")$/;"	v
+CMAKE_CXX_FLAGS	etc/cflags.cmake	/^set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall /;"	v
+CMAKE_CXX_FLAGS_DEBUG	etc/cflags.cmake	/^set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -ggdb3 -Og")$/;"	v
+CMAKE_CXX_FLAGS_DEBUGASAN	etc/cflags.cmake	/^set (CMAKE_CXX_FLAGS_DEBUGASAN "${CMAKE_CXX_FLAGS_DEBUG} -fsanitize=undefined -fsanitize=address/;"	v
+CMAKE_CXX_FLAGS_RELASAN	etc/cflags.cmake	/^set (CMAKE_CXX_FLAGS_RELASAN "${CMAKE_CXX_FLAGS_RELEASE} -fsanitize=undefined -fsanitize=address/;"	v
+CMAKE_CXX_IGNORE_EXTENSIONS	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/9;\/usr\/include\/x86_64-linux-/;"	v
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/9;\/usr\/lib\/x86_64/;"	v
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_COMPLAIN	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_INCLUDE_REGEX_SCAN	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})$/;"	v
+CMAKE_CXX_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
+CMAKE_CXX_PLATFORM_ID	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v
+CMAKE_CXX_SIMULATE_ID	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
+CMAKE_CXX_SIMULATE_VERSION	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
+CMAKE_CXX_SIZEOF_DATA_PTR	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;CPP)$/;"	v
+CMAKE_CXX_STANDARD	etc/cflags.cmake	/^set (CMAKE_CXX_STANDARD 17)$/;"	v
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/apps/CMakeFiles/webget.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/doctests/CMakeFiles/address_dt.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/doctests/CMakeFiles/parser_dt.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/doctests/CMakeFiles/socket_dt.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/tests/CMakeFiles/byte_stream_capacity.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/tests/CMakeFiles/byte_stream_many_writes.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/tests/CMakeFiles/byte_stream_one_write.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_CXX_TARGET_INCLUDE_PATH	build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake	/^set(CMAKE_CXX_TARGET_INCLUDE_PATH$/;"	v
+CMAKE_C_ABI_COMPILED	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_ABI_COMPILED TRUE)$/;"	v
+CMAKE_C_CL_SHOWINCLUDES_PREFIX	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_C_COMPILER	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER "\/usr\/bin\/cc")$/;"	v
+CMAKE_C_COMPILER_ABI	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ABI "ELF")$/;"	v
+CMAKE_C_COMPILER_AR	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_AR "\/usr\/bin\/gcc-ar-9")$/;"	v
+CMAKE_C_COMPILER_ARG1	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ARG1 "")$/;"	v
+CMAKE_C_COMPILER_ENV_VAR	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ENV_VAR "CC")$/;"	v
+CMAKE_C_COMPILER_FRONTEND_VARIANT	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")$/;"	v
+CMAKE_C_COMPILER_ID	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID "GNU")$/;"	v
+CMAKE_C_COMPILER_ID_RUN	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_C_COMPILER_LOADED	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_LOADED 1)$/;"	v
+CMAKE_C_COMPILER_RANLIB	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_RANLIB "\/usr\/bin\/gcc-ranlib-9")$/;"	v
+CMAKE_C_COMPILER_VERSION	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION "9.3.0")$/;"	v
+CMAKE_C_COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_C_COMPILER_WORKS	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_C_COMPILER_WRAPPER	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILER_WRAPPER "")$/;"	v
+CMAKE_C_COMPILE_FEATURES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macr/;"	v
+CMAKE_C_IGNORE_EXTENSIONS	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/9\/include;\/usr\/l/;"	v
+CMAKE_C_IMPLICIT_LINK_DIRECTORIES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib\/gcc\/x86_64-linux-gnu\/9;\/usr\/lib\/x86_64-l/;"	v
+CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_C_IMPLICIT_LINK_LIBRARIES	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_COMPLAIN	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_INCLUDE_REGEX_SCAN	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")$/;"	v
+CMAKE_C_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_C_LINKER_PREFERENCE	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_LINKER_PREFERENCE 10)$/;"	v
+CMAKE_C_PLATFORM_ID	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_PLATFORM_ID "Linux")$/;"	v
+CMAKE_C_SIMULATE_ID	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_ID "")$/;"	v
+CMAKE_C_SIMULATE_VERSION	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_SIMULATE_VERSION "")$/;"	v
+CMAKE_C_SIZEOF_DATA_PTR	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_C_SOURCE_FILE_EXTENSIONS	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)$/;"	v
+CMAKE_C_STANDARD_COMPUTED_DEFAULT	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/apps/CMakeFiles/webget.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/doctests/CMakeFiles/address_dt.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/doctests/CMakeFiles/parser_dt.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/doctests/CMakeFiles/socket_dt.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/tests/CMakeFiles/byte_stream_capacity.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/tests/CMakeFiles/byte_stream_many_writes.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/tests/CMakeFiles/byte_stream_one_write.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_CHECK_CXX	build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_CHECK_CXX$/;"	v
+CMAKE_DEPENDS_GENERATOR	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab0.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab1.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab2.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab3.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab4.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab5.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_lab6.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/check_webget.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/doc.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/CMakeFiles/format.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/apps/CMakeFiles/webget.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/doctests/CMakeFiles/address_dt.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/doctests/CMakeFiles/parser_dt.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/doctests/CMakeFiles/socket_dt.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/tests/CMakeFiles/byte_stream_capacity.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/tests/CMakeFiles/byte_stream_many_writes.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/tests/CMakeFiles/byte_stream_one_write.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPENDS_LANGUAGES	build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake	/^set(CMAKE_DEPENDS_LANGUAGES$/;"	v
+CMAKE_DEPEND_INFO_FILES	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_DEPEND_INFO_FILES$/;"	v
+CMAKE_EXPORT_COMPILE_COMMANDS	etc/cflags.cmake	/^set (CMAKE_EXPORT_COMPILE_COMMANDS ON)$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_FORCE_UNIX_PATHS	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_FORCE_UNIX_PATHS 1)$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab0.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab1.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab2.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab3.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab4.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab5.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_lab6.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/check_webget.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/doc.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/CMakeFiles/format.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/apps/CMakeFiles/webget.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/doctests/CMakeFiles/address_dt.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/doctests/CMakeFiles/parser_dt.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/doctests/CMakeFiles/socket_dt.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/tests/CMakeFiles/byte_stream_capacity.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/tests/CMakeFiles/byte_stream_many_writes.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/tests/CMakeFiles/byte_stream_one_write.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_Fortran_TARGET_MODULE_DIR	build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake	/^set(CMAKE_Fortran_TARGET_MODULE_DIR "")$/;"	v
+CMAKE_HOST_SYSTEM	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.10.16.3-microsoft-standard-WSL2")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.10.16.3-microsoft-standard-WSL2")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/apps/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/apps/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_COMPONENT	build/doctests/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/doctests/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_COMPONENT	build/libsponge/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/libsponge/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_COMPONENT	build/tests/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/tests/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/apps/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Release")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Release")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/doctests/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Release")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/libsponge/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Release")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/tests/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Release")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_PREFIX	build/apps/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_PREFIX	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_PREFIX	build/doctests/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_PREFIX	build/libsponge/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_PREFIX	build/tests/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/apps/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/doctests/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/libsponge/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/tests/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_C_COMPILER_ABI}")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
+CMAKE_LINKER	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
+CMAKE_MAKEFILE_DEPENDS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_DEPENDS$/;"	v
+CMAKE_MAKEFILE_OUTPUTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_OUTPUTS$/;"	v
+CMAKE_MAKEFILE_PRODUCTS	build/CMakeFiles/Makefile.cmake	/^set(CMAKE_MAKEFILE_PRODUCTS$/;"	v
+CMAKE_MT	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_MT	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RANLIB	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/heiyan\/cs144\/sponge\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/heiyan\/cs144\/sponge\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/heiyan\/cs144\/sponge\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/heiyan\/cs144\/sponge\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_BINARY	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_BINARY "\/home\/heiyan\/cs144\/sponge\/build")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/heiyan\/cs144\/sponge")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/apps/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/heiyan\/cs144\/sponge")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/doctests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/heiyan\/cs144\/sponge")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/libsponge/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/heiyan\/cs144\/sponge")$/;"	v
+CMAKE_RELATIVE_PATH_TOP_SOURCE	build/tests/CMakeFiles/CMakeDirectoryInformation.cmake	/^set(CMAKE_RELATIVE_PATH_TOP_SOURCE "\/home\/heiyan\/cs144\/sponge")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/heiyan\/cs144\/sponge$/;"	m
+CMAKE_SOURCE_DIR	build/apps/Makefile	/^CMAKE_SOURCE_DIR = \/home\/heiyan\/cs144\/sponge$/;"	m
+CMAKE_SOURCE_DIR	build/doctests/Makefile	/^CMAKE_SOURCE_DIR = \/home\/heiyan\/cs144\/sponge$/;"	m
+CMAKE_SOURCE_DIR	build/libsponge/Makefile	/^CMAKE_SOURCE_DIR = \/home\/heiyan\/cs144\/sponge$/;"	m
+CMAKE_SOURCE_DIR	build/tests/Makefile	/^CMAKE_SOURCE_DIR = \/home\/heiyan\/cs144\/sponge$/;"	m
+CMAKE_SYSTEM	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.10.16.3-microsoft-standard-WSL2")$/;"	v
+CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_NAME	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.16.3/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.10.16.3-microsoft-standard-WSL2")$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab0.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab1.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab2.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab3.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab4.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab5.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_lab6.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/check_webget.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/doc.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/CMakeFiles/format.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/apps/CMakeFiles/webget.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/doctests/CMakeFiles/address_dt.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/doctests/CMakeFiles/parser_dt.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/doctests/CMakeFiles/socket_dt.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/libsponge/CMakeFiles/sponge.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/tests/CMakeFiles/byte_stream_capacity.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/tests/CMakeFiles/byte_stream_construction.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/tests/CMakeFiles/byte_stream_many_writes.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/tests/CMakeFiles/byte_stream_one_write.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/tests/CMakeFiles/byte_stream_two_writes.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+CMAKE_TARGET_LINKED_INFO_FILES	build/tests/CMakeFiles/spongechecks.dir/DependInfo.cmake	/^set(CMAKE_TARGET_LINKED_INFO_FILES$/;"	v
+COMPILER_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CPPCHECK	etc/cppcheck.cmake	/^        set (CPPCHECK ${CPPCHECK_TMP} CACHE STRING "cppcheck executable name")$/;"	v
+CPPCHECK_TMP	etc/cppcheck.cmake	/^        set (CPPCHECK_TMP $ENV{CPPCHECK})$/;"	v
+CPPCHECK_TMP	etc/cppcheck.cmake	/^        set (CPPCHECK_TMP cppcheck)$/;"	v
+CXX_STD	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+CXX_VERSION_LT_6	etc/cflags.cmake	/^set (CXX_VERSION_LT_6 ("${CMAKE_CXX_COMPILER_VERSION}" VERSION_LESS 6))$/;"	v
+CXX_VERSION_LT_8	etc/cflags.cmake	/^set (CXX_VERSION_LT_8 ("${CMAKE_CXX_COMPILER_VERSION}" VERSION_LESS 8))$/;"	v
+CYGWIN	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+CYGWIN	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+C_DIALECT	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define C_DIALECT /;"	d	file:
+C_DIALECT	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define C_DIALECT$/;"	d	file:
+C_DIALECT	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define C_DIALECT /;"	d	file:
+CallbackT	libsponge/util/eventloop.hh	/^    using CallbackT = std::function<void(void)>;  \/\/!< Callback for ready Rule::fd$/;"	t	class:EventLoop
+DEC	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+DOXYGEN_ABBREVIATE_BRIEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ABBREVIATE_BRIEF "The $name class" $/;"	v
+DOXYGEN_ALLEXTERNALS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALLEXTERNALS NO)$/;"	v
+DOXYGEN_ALLOW_UNICODE_NAMES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALLOW_UNICODE_NAMES NO)$/;"	v
+DOXYGEN_ALPHABETICAL_INDEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALPHABETICAL_INDEX YES)$/;"	v
+DOXYGEN_ALWAYS_DETAILED_SEC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALWAYS_DETAILED_SEC NO)$/;"	v
+DOXYGEN_AUTOLINK_SUPPORT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_AUTOLINK_SUPPORT YES)$/;"	v
+DOXYGEN_BINARY_TOC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_BINARY_TOC NO)$/;"	v
+DOXYGEN_BRIEF_MEMBER_DESC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_BRIEF_MEMBER_DESC YES)$/;"	v
+DOXYGEN_BUILTIN_STL_SUPPORT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_BUILTIN_STL_SUPPORT NO)$/;"	v
+DOXYGEN_CALLER_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CALLER_GRAPH NO)$/;"	v
+DOXYGEN_CALL_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CALL_GRAPH NO)$/;"	v
+DOXYGEN_CASE_SENSE_NAMES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CASE_SENSE_NAMES YES)$/;"	v
+DOXYGEN_CLANG_ASSISTED_PARSING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CLANG_ASSISTED_PARSING NO)$/;"	v
+DOXYGEN_CLASS_DIAGRAMS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CLASS_DIAGRAMS YES)$/;"	v
+DOXYGEN_CLASS_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CLASS_GRAPH YES)$/;"	v
+DOXYGEN_COLLABORATION_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COLLABORATION_GRAPH YES)$/;"	v
+DOXYGEN_COLS_IN_ALPHA_INDEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COLS_IN_ALPHA_INDEX 5)$/;"	v
+DOXYGEN_COMPACT_LATEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COMPACT_LATEX NO)$/;"	v
+DOXYGEN_COMPACT_RTF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COMPACT_RTF NO)$/;"	v
+DOXYGEN_CPP_CLI_SUPPORT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CPP_CLI_SUPPORT NO)$/;"	v
+DOXYGEN_CREATE_SUBDIRS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CREATE_SUBDIRS NO)$/;"	v
+DOXYGEN_DIRECTORY_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DIRECTORY_GRAPH YES)$/;"	v
+DOXYGEN_DISABLE_INDEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DISABLE_INDEX NO)$/;"	v
+DOXYGEN_DISTRIBUTE_GROUP_DOC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DISTRIBUTE_GROUP_DOC NO)$/;"	v
+DOXYGEN_DOCBOOK_OUTPUT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCBOOK_OUTPUT docbook)$/;"	v
+DOXYGEN_DOCBOOK_PROGRAMLISTING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCBOOK_PROGRAMLISTING NO)$/;"	v
+DOXYGEN_DOCSET_BUNDLE_ID	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_BUNDLE_ID org.doxygen.Project)$/;"	v
+DOXYGEN_DOCSET_FEEDNAME	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_FEEDNAME "Doxygen generated docs")$/;"	v
+DOXYGEN_DOCSET_PUBLISHER_ID	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_PUBLISHER_ID org.doxygen.Publisher)$/;"	v
+DOXYGEN_DOCSET_PUBLISHER_NAME	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_PUBLISHER_NAME Publisher)$/;"	v
+DOXYGEN_DOT_CLEANUP	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_CLEANUP YES)$/;"	v
+DOXYGEN_DOT_FONTNAME	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_FONTNAME Helvetica)$/;"	v
+DOXYGEN_DOT_FONTSIZE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_FONTSIZE 10)$/;"	v
+DOXYGEN_DOT_FOUND	etc/doxygen.cmake	/^        set (DOXYGEN_DOT_FOUND NO)$/;"	v
+DOXYGEN_DOT_FOUND	etc/doxygen.cmake	/^        set (DOXYGEN_DOT_FOUND YES)$/;"	v
+DOXYGEN_DOT_GRAPH_MAX_NODES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_GRAPH_MAX_NODES 50)$/;"	v
+DOXYGEN_DOT_IMAGE_FORMAT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_IMAGE_FORMAT png)$/;"	v
+DOXYGEN_DOT_MULTI_TARGETS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_MULTI_TARGETS NO)$/;"	v
+DOXYGEN_DOT_NUM_THREADS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_NUM_THREADS 0)$/;"	v
+DOXYGEN_DOT_TRANSPARENT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_TRANSPARENT NO)$/;"	v
+DOXYGEN_DOXYFILE_ENCODING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOXYFILE_ENCODING UTF-8)$/;"	v
+DOXYGEN_ECLIPSE_DOC_ID	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ECLIPSE_DOC_ID org.doxygen.Project)$/;"	v
+DOXYGEN_ENABLE_PREPROCESSING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ENABLE_PREPROCESSING YES)$/;"	v
+DOXYGEN_ENUM_VALUES_PER_LINE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ENUM_VALUES_PER_LINE 4)$/;"	v
+DOXYGEN_EXAMPLE_PATTERNS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXAMPLE_PATTERNS *)$/;"	v
+DOXYGEN_EXAMPLE_RECURSIVE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXAMPLE_RECURSIVE NO)$/;"	v
+DOXYGEN_EXCLUDE_SYMLINKS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXCLUDE_SYMLINKS NO)$/;"	v
+DOXYGEN_EXPAND_ONLY_PREDEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXPAND_ONLY_PREDEF NO)$/;"	v
+DOXYGEN_EXTERNAL_GROUPS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTERNAL_GROUPS YES)$/;"	v
+DOXYGEN_EXTERNAL_PAGES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTERNAL_PAGES YES)$/;"	v
+DOXYGEN_EXTERNAL_SEARCH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTERNAL_SEARCH NO)$/;"	v
+DOXYGEN_EXTRACT_ALL	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_ALL NO)$/;"	v
+DOXYGEN_EXTRACT_ANON_NSPACES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_ANON_NSPACES NO)$/;"	v
+DOXYGEN_EXTRACT_LOCAL_CLASSES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_LOCAL_CLASSES YES)$/;"	v
+DOXYGEN_EXTRACT_LOCAL_METHODS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_LOCAL_METHODS NO)$/;"	v
+DOXYGEN_EXTRACT_PACKAGE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_PACKAGE NO)$/;"	v
+DOXYGEN_EXTRACT_PRIVATE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_PRIVATE NO)$/;"	v
+DOXYGEN_EXTRACT_PRIV_VIRTUAL	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_PRIV_VIRTUAL NO)$/;"	v
+DOXYGEN_EXTRACT_STATIC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_STATIC NO)$/;"	v
+DOXYGEN_EXT_LINKS_IN_WINDOW	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXT_LINKS_IN_WINDOW NO)$/;"	v
+DOXYGEN_FILE_PATTERNS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FILE_PATTERNS *.c $/;"	v
+DOXYGEN_FILTER_SOURCE_FILES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FILTER_SOURCE_FILES NO)$/;"	v
+DOXYGEN_FORCE_LOCAL_INCLUDES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FORCE_LOCAL_INCLUDES NO)$/;"	v
+DOXYGEN_FORMULA_FONTSIZE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FORMULA_FONTSIZE 10)$/;"	v
+DOXYGEN_FORMULA_TRANSPARENT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FORMULA_TRANSPARENT YES)$/;"	v
+DOXYGEN_FULL_PATH_NAMES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FULL_PATH_NAMES YES)$/;"	v
+DOXYGEN_GENERATE_AUTOGEN_DEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_AUTOGEN_DEF NO)$/;"	v
+DOXYGEN_GENERATE_BUGLIST	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_BUGLIST YES)$/;"	v
+DOXYGEN_GENERATE_CHI	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_CHI NO)$/;"	v
+DOXYGEN_GENERATE_DEPRECATEDLIST	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_DEPRECATEDLIST YES)$/;"	v
+DOXYGEN_GENERATE_DOCBOOK	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_DOCBOOK NO)$/;"	v
+DOXYGEN_GENERATE_DOCSET	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_DOCSET NO)$/;"	v
+DOXYGEN_GENERATE_ECLIPSEHELP	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_ECLIPSEHELP NO)$/;"	v
+DOXYGEN_GENERATE_HTML	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_HTML YES)$/;"	v
+DOXYGEN_GENERATE_HTMLHELP	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_HTMLHELP NO)$/;"	v
+DOXYGEN_GENERATE_LATEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_LATEX YES)$/;"	v
+DOXYGEN_GENERATE_LEGEND	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_LEGEND YES)$/;"	v
+DOXYGEN_GENERATE_MAN	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_MAN NO)$/;"	v
+DOXYGEN_GENERATE_PERLMOD	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_PERLMOD NO)$/;"	v
+DOXYGEN_GENERATE_QHP	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_QHP NO)$/;"	v
+DOXYGEN_GENERATE_RTF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_RTF NO)$/;"	v
+DOXYGEN_GENERATE_TESTLIST	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_TESTLIST YES)$/;"	v
+DOXYGEN_GENERATE_TODOLIST	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_TODOLIST YES)$/;"	v
+DOXYGEN_GENERATE_TREEVIEW	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_TREEVIEW NO)$/;"	v
+DOXYGEN_GENERATE_XML	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_XML NO)$/;"	v
+DOXYGEN_GRAPHICAL_HIERARCHY	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GRAPHICAL_HIERARCHY YES)$/;"	v
+DOXYGEN_GROUP_GRAPHS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GROUP_GRAPHS YES)$/;"	v
+DOXYGEN_GROUP_NESTED_COMPOUNDS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GROUP_NESTED_COMPOUNDS NO)$/;"	v
+DOXYGEN_HAVE_DOT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HAVE_DOT YES)$/;"	v
+DOXYGEN_HIDE_COMPOUND_REFERENCE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_COMPOUND_REFERENCE NO)$/;"	v
+DOXYGEN_HIDE_FRIEND_COMPOUNDS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_FRIEND_COMPOUNDS NO)$/;"	v
+DOXYGEN_HIDE_IN_BODY_DOCS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_IN_BODY_DOCS NO)$/;"	v
+DOXYGEN_HIDE_SCOPE_NAMES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_SCOPE_NAMES NO)$/;"	v
+DOXYGEN_HIDE_UNDOC_CLASSES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_UNDOC_CLASSES NO)$/;"	v
+DOXYGEN_HIDE_UNDOC_MEMBERS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_UNDOC_MEMBERS NO)$/;"	v
+DOXYGEN_HIDE_UNDOC_RELATIONS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_UNDOC_RELATIONS YES)$/;"	v
+DOXYGEN_HTML_COLORSTYLE_GAMMA	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE_GAMMA 80)$/;"	v
+DOXYGEN_HTML_COLORSTYLE_HUE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE_HUE 220)$/;"	v
+DOXYGEN_HTML_COLORSTYLE_SAT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE_SAT 100)$/;"	v
+DOXYGEN_HTML_DYNAMIC_MENUS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_DYNAMIC_MENUS YES)$/;"	v
+DOXYGEN_HTML_DYNAMIC_SECTIONS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_DYNAMIC_SECTIONS NO)$/;"	v
+DOXYGEN_HTML_FILE_EXTENSION	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_FILE_EXTENSION .html)$/;"	v
+DOXYGEN_HTML_INDEX_NUM_ENTRIES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_INDEX_NUM_ENTRIES 100)$/;"	v
+DOXYGEN_HTML_OUTPUT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_OUTPUT html)$/;"	v
+DOXYGEN_HTML_TIMESTAMP	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_TIMESTAMP NO)$/;"	v
+DOXYGEN_IDL_PROPERTY_SUPPORT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_IDL_PROPERTY_SUPPORT YES)$/;"	v
+DOXYGEN_INCLUDED_BY_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INCLUDED_BY_GRAPH YES)$/;"	v
+DOXYGEN_INCLUDE_GRAPH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INCLUDE_GRAPH YES)$/;"	v
+DOXYGEN_INHERIT_DOCS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INHERIT_DOCS YES)$/;"	v
+DOXYGEN_INLINE_GROUPED_CLASSES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_GROUPED_CLASSES NO)$/;"	v
+DOXYGEN_INLINE_INFO	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_INFO YES)$/;"	v
+DOXYGEN_INLINE_INHERITED_MEMB	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_INHERITED_MEMB NO)$/;"	v
+DOXYGEN_INLINE_SIMPLE_STRUCTS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_SIMPLE_STRUCTS NO)$/;"	v
+DOXYGEN_INLINE_SOURCES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_SOURCES NO)$/;"	v
+DOXYGEN_INPUT_ENCODING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INPUT_ENCODING UTF-8)$/;"	v
+DOXYGEN_INTERACTIVE_SVG	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INTERACTIVE_SVG NO)$/;"	v
+DOXYGEN_INTERNAL_DOCS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INTERNAL_DOCS NO)$/;"	v
+DOXYGEN_JAVADOC_AUTOBRIEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_JAVADOC_AUTOBRIEF NO)$/;"	v
+DOXYGEN_JAVADOC_BANNER	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_JAVADOC_BANNER NO)$/;"	v
+DOXYGEN_LATEX_BATCHMODE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_BATCHMODE NO)$/;"	v
+DOXYGEN_LATEX_BIB_STYLE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_BIB_STYLE plain)$/;"	v
+DOXYGEN_LATEX_HIDE_INDICES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_HIDE_INDICES NO)$/;"	v
+DOXYGEN_LATEX_MAKEINDEX_CMD	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_MAKEINDEX_CMD makeindex)$/;"	v
+DOXYGEN_LATEX_OUTPUT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_OUTPUT latex)$/;"	v
+DOXYGEN_LATEX_SOURCE_CODE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_SOURCE_CODE NO)$/;"	v
+DOXYGEN_LATEX_TIMESTAMP	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_TIMESTAMP NO)$/;"	v
+DOXYGEN_LOOKUP_CACHE_SIZE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LOOKUP_CACHE_SIZE 0)$/;"	v
+DOXYGEN_MACRO_EXPANSION	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MACRO_EXPANSION NO)$/;"	v
+DOXYGEN_MAKEINDEX_CMD_NAME	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAKEINDEX_CMD_NAME makeindex)$/;"	v
+DOXYGEN_MAN_EXTENSION	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAN_EXTENSION .3)$/;"	v
+DOXYGEN_MAN_LINKS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAN_LINKS NO)$/;"	v
+DOXYGEN_MAN_OUTPUT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAN_OUTPUT man)$/;"	v
+DOXYGEN_MARKDOWN_SUPPORT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MARKDOWN_SUPPORT YES)$/;"	v
+DOXYGEN_MATHJAX_FORMAT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MATHJAX_FORMAT HTML-CSS)$/;"	v
+DOXYGEN_MATHJAX_RELPATH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MATHJAX_RELPATH https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.5\/)$/;"	v
+DOXYGEN_MAX_DOT_GRAPH_DEPTH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAX_DOT_GRAPH_DEPTH 0)$/;"	v
+DOXYGEN_MAX_INITIALIZER_LINES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAX_INITIALIZER_LINES 30)$/;"	v
+DOXYGEN_MULTILINE_CPP_IS_BRIEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MULTILINE_CPP_IS_BRIEF NO)$/;"	v
+DOXYGEN_OPTIMIZE_FOR_FORTRAN	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_FOR_FORTRAN NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_FOR_C	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_FOR_C NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_JAVA	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_JAVA NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_SLICE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_SLICE NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_VHDL	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_VHDL NO)$/;"	v
+DOXYGEN_OUTPUT_LANGUAGE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OUTPUT_LANGUAGE English)$/;"	v
+DOXYGEN_OUTPUT_TEXT_DIRECTION	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OUTPUT_TEXT_DIRECTION None)$/;"	v
+DOXYGEN_PAPER_TYPE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PAPER_TYPE a4)$/;"	v
+DOXYGEN_PDF_HYPERLINKS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PDF_HYPERLINKS YES)$/;"	v
+DOXYGEN_PERLMOD_LATEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PERLMOD_LATEX NO)$/;"	v
+DOXYGEN_PERLMOD_PRETTY	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PERLMOD_PRETTY YES)$/;"	v
+DOXYGEN_PROJECT_NAME	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PROJECT_NAME "My Project")$/;"	v
+DOXYGEN_QHP_NAMESPACE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QHP_NAMESPACE org.doxygen.Project)$/;"	v
+DOXYGEN_QHP_VIRTUAL_FOLDER	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QHP_VIRTUAL_FOLDER doc)$/;"	v
+DOXYGEN_QT_AUTOBRIEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QT_AUTOBRIEF NO)$/;"	v
+DOXYGEN_QUIET	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QUIET NO)$/;"	v
+DOXYGEN_RECURSIVE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RECURSIVE NO)$/;"	v
+DOXYGEN_REFERENCED_BY_RELATION	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REFERENCED_BY_RELATION NO)$/;"	v
+DOXYGEN_REFERENCES_LINK_SOURCE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REFERENCES_LINK_SOURCE YES)$/;"	v
+DOXYGEN_REFERENCES_RELATION	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REFERENCES_RELATION NO)$/;"	v
+DOXYGEN_REPEAT_BRIEF	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REPEAT_BRIEF YES)$/;"	v
+DOXYGEN_RTF_HYPERLINKS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RTF_HYPERLINKS NO)$/;"	v
+DOXYGEN_RTF_OUTPUT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RTF_OUTPUT rtf)$/;"	v
+DOXYGEN_RTF_SOURCE_CODE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RTF_SOURCE_CODE NO)$/;"	v
+DOXYGEN_SEARCHDATA_FILE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEARCHDATA_FILE searchdata.xml)$/;"	v
+DOXYGEN_SEARCHENGINE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEARCHENGINE YES)$/;"	v
+DOXYGEN_SEARCH_INCLUDES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEARCH_INCLUDES YES)$/;"	v
+DOXYGEN_SEPARATE_MEMBER_PAGES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEPARATE_MEMBER_PAGES NO)$/;"	v
+DOXYGEN_SERVER_BASED_SEARCH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SERVER_BASED_SEARCH NO)$/;"	v
+DOXYGEN_SHORT_NAMES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHORT_NAMES NO)$/;"	v
+DOXYGEN_SHOW_FILES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_FILES YES)$/;"	v
+DOXYGEN_SHOW_GROUPED_MEMB_INC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_GROUPED_MEMB_INC NO)$/;"	v
+DOXYGEN_SHOW_INCLUDE_FILES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_INCLUDE_FILES YES)$/;"	v
+DOXYGEN_SHOW_NAMESPACES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_NAMESPACES YES)$/;"	v
+DOXYGEN_SHOW_USED_FILES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_USED_FILES YES)$/;"	v
+DOXYGEN_SIP_SUPPORT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SIP_SUPPORT NO)$/;"	v
+DOXYGEN_SKIP_FUNCTION_MACROS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SKIP_FUNCTION_MACROS YES)$/;"	v
+DOXYGEN_SORT_BRIEF_DOCS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_BRIEF_DOCS NO)$/;"	v
+DOXYGEN_SORT_BY_SCOPE_NAME	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_BY_SCOPE_NAME NO)$/;"	v
+DOXYGEN_SORT_GROUP_NAMES	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_GROUP_NAMES NO)$/;"	v
+DOXYGEN_SORT_MEMBERS_CTORS_1ST	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_MEMBERS_CTORS_1ST NO)$/;"	v
+DOXYGEN_SORT_MEMBER_DOCS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_MEMBER_DOCS YES)$/;"	v
+DOXYGEN_SOURCE_BROWSER	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SOURCE_BROWSER NO)$/;"	v
+DOXYGEN_SOURCE_TOOLTIPS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SOURCE_TOOLTIPS YES)$/;"	v
+DOXYGEN_STRICT_PROTO_MATCHING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_STRICT_PROTO_MATCHING NO)$/;"	v
+DOXYGEN_STRIP_CODE_COMMENTS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_STRIP_CODE_COMMENTS YES)$/;"	v
+DOXYGEN_SUBGROUPING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SUBGROUPING YES)$/;"	v
+DOXYGEN_TAB_SIZE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TAB_SIZE 4)$/;"	v
+DOXYGEN_TEMPLATE_RELATIONS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TEMPLATE_RELATIONS NO)$/;"	v
+DOXYGEN_TOC_EXPAND	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TOC_EXPAND NO)$/;"	v
+DOXYGEN_TOC_INCLUDE_HEADINGS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TOC_INCLUDE_HEADINGS 5)$/;"	v
+DOXYGEN_TREEVIEW_WIDTH	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TREEVIEW_WIDTH 250)$/;"	v
+DOXYGEN_TYPEDEF_HIDES_STRUCT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TYPEDEF_HIDES_STRUCT NO)$/;"	v
+DOXYGEN_UML_LIMIT_NUM_FIELDS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_UML_LIMIT_NUM_FIELDS 10)$/;"	v
+DOXYGEN_UML_LOOK	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_UML_LOOK NO)$/;"	v
+DOXYGEN_USE_HTAGS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_USE_HTAGS NO)$/;"	v
+DOXYGEN_USE_MATHJAX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_USE_MATHJAX NO)$/;"	v
+DOXYGEN_USE_PDFLATEX	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_USE_PDFLATEX YES)$/;"	v
+DOXYGEN_VERBATIM_HEADERS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_VERBATIM_HEADERS YES)$/;"	v
+DOXYGEN_WARNINGS	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARNINGS YES)$/;"	v
+DOXYGEN_WARN_AS_ERROR	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_AS_ERROR NO)$/;"	v
+DOXYGEN_WARN_FORMAT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_FORMAT "$file:$line: $text")$/;"	v
+DOXYGEN_WARN_IF_DOC_ERROR	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_IF_DOC_ERROR YES)$/;"	v
+DOXYGEN_WARN_IF_UNDOCUMENTED	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_IF_UNDOCUMENTED YES)$/;"	v
+DOXYGEN_WARN_NO_PARAMDOC	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_NO_PARAMDOC NO)$/;"	v
+DOXYGEN_XML_NS_MEMB_FILE_SCOPE	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_XML_NS_MEMB_FILE_SCOPE NO)$/;"	v
+DOXYGEN_XML_OUTPUT	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_XML_OUTPUT xml)$/;"	v
+DOXYGEN_XML_PROGRAMLISTING	build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_XML_PROGRAMLISTING YES)$/;"	v
+DUMMY_CODE	libsponge/byte_stream.cc	/^void DUMMY_CODE(Targs &&... \/* unused *\/) {}$/;"	f	typeref:typename:void
+Direction	libsponge/util/eventloop.hh	/^    enum class Direction : short {$/;"	g	class:EventLoop	typeref:typename:short
+Direction	libsponge/util/eventloop.hh	/^using Direction = EventLoop::Direction;$/;"	t	typeref:typename:EventLoop::Direction
+EQUALS	build/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/apps/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/doctests/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/libsponge/Makefile	/^EQUALS = =$/;"	m
+EQUALS	build/tests/Makefile	/^EQUALS = =$/;"	m
+EndInput	tests/byte_stream_test_harness.hh	/^struct EndInput : public ByteStreamAction {$/;"	s
+Eof	tests/byte_stream_test_harness.cc	/^Eof::Eof(const bool eof) : _eof(eof) {}$/;"	f	class:Eof
+Eof	tests/byte_stream_test_harness.hh	/^struct Eof : public ByteStreamExpectation {$/;"	s
+EventLoop	libsponge/util/eventloop.hh	/^class EventLoop {$/;"	c
+Exit	libsponge/util/eventloop.hh	/^        Exit  \/\/!< All rules have been canceled or were uninterested; make no further calls to/;"	e	enum:EventLoop::Result
+FDWrapper	libsponge/util/file_descriptor.cc	/^FileDescriptor::FDWrapper::FDWrapper(const int fd) : _fd(fd) {$/;"	f	class:FileDescriptor::FDWrapper
+FDWrapper	libsponge/util/file_descriptor.hh	/^    class FDWrapper {$/;"	c	class:FileDescriptor
+FileDescriptor	libsponge/util/file_descriptor.cc	/^FileDescriptor::FileDescriptor(const int fd) : _internal_fd(make_shared<FDWrapper>(fd)) {}$/;"	f	class:FileDescriptor
+FileDescriptor	libsponge/util/file_descriptor.cc	/^FileDescriptor::FileDescriptor(shared_ptr<FDWrapper> other_shared_ptr) : _internal_fd(move(other/;"	f	class:FileDescriptor
+FileDescriptor	libsponge/util/file_descriptor.hh	/^class FileDescriptor {$/;"	c
+HEX	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+HeaderTooShort	libsponge/util/parser.hh	/^    HeaderTooShort,   \/\/!< Header length is shorter than minimum required$/;"	e	enum:ParseResult
+ID_VOID_MAIN	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+IS_CLANG_COMPILER	etc/cflags.cmake	/^set (IS_CLANG_COMPILER ("${CMAKE_CXX_COMPILER_ID}" MATCHES "[Cc][Ll][Aa][Nn][Gg]"))$/;"	v
+IS_GNU_COMPILER	etc/cflags.cmake	/^set (IS_GNU_COMPILER ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU"))$/;"	v
+In	libsponge/util/eventloop.hh	/^        In = POLLIN,   \/\/!< Callback will be triggered when Rule::fd is readable.$/;"	e	enum:EventLoop::Direction
+InputEnded	tests/byte_stream_test_harness.cc	/^InputEnded::InputEnded(const bool input_ended) : _input_ended(input_ended) {}$/;"	f	class:InputEnded
+InputEnded	tests/byte_stream_test_harness.hh	/^struct InputEnded : public ByteStreamExpectation {$/;"	s
+InterestT	libsponge/util/eventloop.hh	/^    using InterestT = std::function<bool(void)>;  \/\/!< `true` return indicates Rule::fd should/;"	t	class:EventLoop
+InternetChecksum	libsponge/util/util.cc	/^InternetChecksum::InternetChecksum(const uint32_t initial_sum) : _sum(initial_sum) {}$/;"	f	class:InternetChecksum
+InternetChecksum	libsponge/util/util.hh	/^class InternetChecksum {$/;"	c
+LOSS_RATE	etc/tests.cmake	/^set (LOSS_RATE 0.1)$/;"	v
+Lab 0 Writeup	writeups/lab0.md	/^Lab 0 Writeup$/;"	c
+LocalStreamSocket	libsponge/util/socket.hh	/^    explicit LocalStreamSocket(FileDescriptor &&fd) : Socket(std::move(fd), AF_UNIX, SOCK_STREAM/;"	f	class:LocalStreamSocket
+LocalStreamSocket	libsponge/util/socket.hh	/^class LocalStreamSocket : public Socket {$/;"	c
+MINGW	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(MINGW 1)$/;"	v
+MINGW	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(MINGW 1)$/;"	v
+NetParser	libsponge/util/parser.hh	/^    NetParser(Buffer buffer) : _buffer(buffer) {}$/;"	f	class:NetParser
+NetParser	libsponge/util/parser.hh	/^class NetParser {$/;"	c
+NetUnparser	libsponge/util/parser.hh	/^struct NetUnparser {$/;"	s
+NoError	libsponge/util/parser.hh	/^    NoError = 0,      \/\/!< Success$/;"	e	enum:ParseResult
+Out	libsponge/util/eventloop.hh	/^        Out = POLLOUT  \/\/!< Callback will be triggered when Rule::fd is writable.$/;"	e	enum:EventLoop::Direction
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+PacketTooShort	libsponge/util/parser.hh	/^    PacketTooShort,   \/\/!< Not enough data to finish parsing$/;"	e	enum:ParseResult
+ParseResult	libsponge/util/parser.hh	/^enum class ParseResult {$/;"	g
+Peek	tests/byte_stream_test_harness.cc	/^Peek::Peek(const std::string &output) : _output(output) {}$/;"	f	class:Peek
+Peek	tests/byte_stream_test_harness.hh	/^struct Peek : public ByteStreamExpectation {$/;"	s
+Pop	tests/byte_stream_test_harness.cc	/^Pop::Pop(const size_t len) : _len(len) {}$/;"	f	class:Pop
+Pop	tests/byte_stream_test_harness.hh	/^struct Pop : public ByteStreamAction {$/;"	s
+RM	build/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/apps/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/doctests/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/libsponge/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	build/tests/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+Raw	libsponge/util/address.hh	/^    class Raw {$/;"	c	class:Address
+RemainingCapacity	tests/byte_stream_test_harness.cc	/^RemainingCapacity::RemainingCapacity(const size_t remaining_capacity) : _remaining_capacity(rema/;"	f	class:RemainingCapacity
+RemainingCapacity	tests/byte_stream_test_harness.hh	/^struct RemainingCapacity : public ByteStreamExpectation {$/;"	s
+Result	libsponge/util/eventloop.hh	/^    enum class Result {$/;"	g	class:EventLoop
+Rule	libsponge/util/eventloop.hh	/^    class Rule {$/;"	c	class:EventLoop
+SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/apps/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/doctests/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/libsponge/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	build/tests/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SPONGE_BYTE_STREAM_HARNESS_HH	tests/byte_stream_test_harness.hh	/^#define SPONGE_BYTE_STREAM_HARNESS_HH$/;"	d
+SPONGE_LIBSPONGE_ADDRESS_HH	libsponge/util/address.hh	/^#define SPONGE_LIBSPONGE_ADDRESS_HH$/;"	d
+SPONGE_LIBSPONGE_BUFFER_HH	libsponge/util/buffer.hh	/^#define SPONGE_LIBSPONGE_BUFFER_HH$/;"	d
+SPONGE_LIBSPONGE_BYTE_STREAM_HH	libsponge/byte_stream.hh	/^#define SPONGE_LIBSPONGE_BYTE_STREAM_HH$/;"	d
+SPONGE_LIBSPONGE_EVENTLOOP_HH	libsponge/util/eventloop.hh	/^#define SPONGE_LIBSPONGE_EVENTLOOP_HH$/;"	d
+SPONGE_LIBSPONGE_FILE_DESCRIPTOR_HH	libsponge/util/file_descriptor.hh	/^#define SPONGE_LIBSPONGE_FILE_DESCRIPTOR_HH$/;"	d
+SPONGE_LIBSPONGE_PARSER_HH	libsponge/util/parser.hh	/^#define SPONGE_LIBSPONGE_PARSER_HH$/;"	d
+SPONGE_LIBSPONGE_SOCKET_HH	libsponge/util/socket.hh	/^#define SPONGE_LIBSPONGE_SOCKET_HH$/;"	d
+SPONGE_LIBSPONGE_TUN_HH	libsponge/util/tun.hh	/^#define SPONGE_LIBSPONGE_TUN_HH$/;"	d
+SPONGE_LIBSPONGE_UTIL_HH	libsponge/util/util.hh	/^#define SPONGE_LIBSPONGE_UTIL_HH$/;"	d
+SPONGE_TESTS_TEST_ERR_IF_HH	tests/test_err_if.hh	/^#define SPONGE_TESTS_TEST_ERR_IF_HH$/;"	d
+SPONGE_TESTS_TEST_SHOULD_BE_HH	tests/test_should_be.hh	/^#define SPONGE_TESTS_TEST_SHOULD_BE_HH$/;"	d
+STRINGIFY	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/apps/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/doctests/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/libsponge/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	build/tests/Makefile	/^SUFFIXES =$/;"	m
+Socket	libsponge/util/socket.cc	/^Socket::Socket(FileDescriptor &&fd, const int domain, const int type) : FileDescriptor(move(fd))/;"	f	class:Socket
+Socket	libsponge/util/socket.cc	/^Socket::Socket(const int domain, const int type) : FileDescriptor(SystemCall("socket", socket(do/;"	f	class:Socket
+Socket	libsponge/util/socket.hh	/^class Socket : public FileDescriptor {$/;"	c
+Sponge	CMakeLists.txt	/^project (Sponge)$/;"	p
+Sponge quickstart	README.md	/^## Sponge quickstart$/;"	s
+Success	libsponge/util/eventloop.hh	/^        Success,  \/\/!< At least one Rule was triggered.$/;"	e	enum:EventLoop::Result
+SystemCall	libsponge/util/util.cc	/^int SystemCall(const char *attempt, const int return_value, const int errno_mask) {$/;"	f	typeref:typename:int
+SystemCall	libsponge/util/util.cc	/^int SystemCall(const string &attempt, const int return_value, const int errno_mask) {$/;"	f	typeref:typename:int
+TCPSocket	libsponge/util/socket.hh	/^    TCPSocket() : Socket(AF_INET, SOCK_STREAM) {}$/;"	f	class:TCPSocket
+TCPSocket	libsponge/util/socket.hh	/^    explicit TCPSocket(FileDescriptor &&fd) : Socket(std::move(fd), AF_INET, SOCK_STREAM) {}$/;"	f	class:TCPSocket
+TCPSocket	libsponge/util/socket.hh	/^class TCPSocket : public Socket {$/;"	c
+TapFD	libsponge/util/tun.hh	/^    explicit TapFD(const std::string &devname) : TunTapFD(devname, false) {}$/;"	f	class:TapFD
+TapFD	libsponge/util/tun.hh	/^class TapFD : public TunTapFD {$/;"	c
+Timeout	libsponge/util/eventloop.hh	/^        Timeout,  \/\/!< No rules were triggered before timeout.$/;"	e	enum:EventLoop::Result
+TruncatedPacket	libsponge/util/parser.hh	/^    TruncatedPacket,  \/\/!< Packet length is shorter than header claims$/;"	e	enum:ParseResult
+TunFD	libsponge/util/tun.hh	/^    explicit TunFD(const std::string &devname) : TunTapFD(devname, true) {}$/;"	f	class:TunFD
+TunFD	libsponge/util/tun.hh	/^class TunFD : public TunTapFD {$/;"	c
+TunTapFD	libsponge/util/tun.cc	/^TunTapFD::TunTapFD(const string &devname, const bool is_tun)$/;"	f	class:TunTapFD
+TunTapFD	libsponge/util/tun.hh	/^class TunTapFD : public FileDescriptor {$/;"	c
+UDPSocket	libsponge/util/socket.hh	/^    UDPSocket() : Socket(AF_INET, SOCK_DGRAM) {}$/;"	f	class:UDPSocket
+UDPSocket	libsponge/util/socket.hh	/^    explicit UDPSocket(FileDescriptor &&fd) : Socket(std::move(fd), AF_INET, SOCK_DGRAM) {}$/;"	f	class:UDPSocket
+UDPSocket	libsponge/util/socket.hh	/^class UDPSocket : public Socket {$/;"	c
+UNIX	build/CMakeFiles/3.16.3/CMakeCCompiler.cmake	/^  set(UNIX 1)$/;"	v
+UNIX	build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake	/^  set(UNIX 1)$/;"	v
+Unsupported	libsponge/util/parser.hh	/^    Unsupported       \/\/!< Packet uses unsupported features$/;"	e	enum:ParseResult
+Write	tests/byte_stream_test_harness.cc	/^Write::Write(const std::string &data) : _data(data) {}$/;"	f	class:Write
+Write	tests/byte_stream_test_harness.hh	/^struct Write : public ByteStreamAction {$/;"	s
+WrongIPVersion	libsponge/util/parser.hh	/^    WrongIPVersion,   \/\/!< Got a version of IP other than 4$/;"	e	enum:ParseResult
+__anon0c9adf7e0102	libsponge/util/address.cc	/^    auto addrinfo_deleter = [](addrinfo *const x) { freeaddrinfo(x); };$/;"	f	function:Address::Address	file:
+__anon7f780c360102	libsponge/util/util.cc	/^    generate(seed_data.begin(), seed_data.end(), [&] { return rd(); });$/;"	f	function:get_random_generator	file:
+__anon80fb562b0102	tests/byte_stream_many_writes.cc	/^                generate(d.begin(), d.end(), [&] { return 'a' + (rd() % 26); });$/;"	f	function:main	file:
+__anonad896b9e0102	libsponge/util/eventloop.hh	/^                  const InterestT &interest = [] { return true; },$/;"	f	class:EventLoop	file:
+__anonad896b9e0202	libsponge/util/eventloop.hh	/^                  const CallbackT &cancel = [] {});$/;"	f	class:EventLoop	file:
+_address	libsponge/util/address.hh	/^    Raw _address{};   \/\/!< A wrapped [sockaddr_storage](@ref man7::socket) containing the addr/;"	m	class:Address	typeref:typename:Raw
+_attempt_and_error	libsponge/util/util.hh	/^    std::string _attempt_and_error;  \/\/!< What was attempted, and what happened$/;"	m	class:tagged_error	typeref:typename:std::string
+_buffer	libsponge/util/parser.hh	/^    Buffer _buffer;$/;"	m	class:NetParser	typeref:typename:Buffer
+_buffer_empty	tests/byte_stream_test_harness.hh	/^    bool _buffer_empty;$/;"	m	struct:BufferEmpty	typeref:typename:bool
+_buffer_size	tests/byte_stream_test_harness.hh	/^    size_t _buffer_size;$/;"	m	struct:BufferSize	typeref:typename:size_t
+_buffers	libsponge/util/buffer.hh	/^    std::deque<Buffer> _buffers{};$/;"	m	class:BufferList	typeref:typename:std::deque<Buffer>
+_byte_stream	tests/byte_stream_test_harness.hh	/^    ByteStream _byte_stream;$/;"	m	class:ByteStreamTestHarness	typeref:typename:ByteStream
+_bytes_read	tests/byte_stream_test_harness.hh	/^    size_t _bytes_read;$/;"	m	struct:BytesRead	typeref:typename:size_t
+_bytes_written	tests/byte_stream_test_harness.hh	/^    size_t _bytes_written;$/;"	m	struct:BytesWritten	typeref:typename:size_t
+_bytes_written	tests/byte_stream_test_harness.hh	/^    std::optional<size_t> _bytes_written{};$/;"	m	struct:Write	typeref:typename:std::optional<size_t>
+_check_size	libsponge/util/parser.cc	/^void NetParser::_check_size(const size_t size) {$/;"	f	class:NetParser	typeref:typename:void
+_closed	libsponge/util/file_descriptor.hh	/^        bool _closed = false;       \/\/!< Flag indicating whether FDWrapper::_fd has been close/;"	m	class:FileDescriptor::FDWrapper	typeref:typename:bool
+_data	tests/byte_stream_test_harness.hh	/^    std::string _data;$/;"	m	struct:Write	typeref:typename:std::string
+_eof	libsponge/util/file_descriptor.hh	/^        bool _eof = false;          \/\/!< Flag indicating whether FDWrapper::_fd is at EOF$/;"	m	class:FileDescriptor::FDWrapper	typeref:typename:bool
+_eof	tests/byte_stream_test_harness.hh	/^    bool _eof;$/;"	m	struct:Eof	typeref:typename:bool
+_error	libsponge/byte_stream.hh	/^    bool _error{};  \/\/!< Flag indicating that the stream suffered an error.$/;"	m	class:ByteStream	typeref:typename:bool
+_error	libsponge/util/parser.hh	/^    ParseResult _error = ParseResult::NoError;  \/\/!< Result of parsing so far$/;"	m	class:NetParser	typeref:typename:ParseResult
+_fd	libsponge/util/file_descriptor.hh	/^        int _fd;                    \/\/!< The file descriptor number returned by the kernel$/;"	m	class:FileDescriptor::FDWrapper	typeref:typename:int
+_input_ended	tests/byte_stream_test_harness.hh	/^    bool _input_ended;$/;"	m	struct:InputEnded	typeref:typename:bool
+_internal_fd	libsponge/util/file_descriptor.hh	/^    std::shared_ptr<FDWrapper> _internal_fd;$/;"	m	class:FileDescriptor	typeref:typename:std::shared_ptr<FDWrapper>
+_len	tests/byte_stream_test_harness.hh	/^    size_t _len;$/;"	m	struct:Pop	typeref:typename:size_t
+_output	tests/byte_stream_test_harness.hh	/^    std::string _output;$/;"	m	struct:Peek	typeref:typename:std::string
+_parity	libsponge/util/util.hh	/^    bool _parity{};$/;"	m	class:InternetChecksum	typeref:typename:bool
+_parse_int	libsponge/util/parser.cc	/^T NetParser::_parse_int() {$/;"	f	class:NetParser	typeref:typename:T
+_read_count	libsponge/util/file_descriptor.hh	/^        unsigned _read_count = 0;   \/\/!< The number of times FDWrapper::_fd has been read$/;"	m	class:FileDescriptor::FDWrapper	typeref:typename:unsigned
+_remaining_capacity	tests/byte_stream_test_harness.hh	/^    size_t _remaining_capacity;$/;"	m	struct:RemainingCapacity	typeref:typename:size_t
+_rules	libsponge/util/eventloop.hh	/^    std::list<Rule> _rules{};  \/\/!< All rules that have been added and not canceled.$/;"	m	class:EventLoop	typeref:typename:std::list<Rule>
+_size	libsponge/util/address.hh	/^    socklen_t _size;  \/\/!< Size of the wrapped address.$/;"	m	class:Address	typeref:typename:socklen_t
+_starting_offset	libsponge/util/buffer.hh	/^    size_t _starting_offset{};$/;"	m	class:Buffer	typeref:typename:size_t
+_steps_executed	tests/byte_stream_test_harness.hh	/^    std::vector<std::string> _steps_executed{};$/;"	m	class:ByteStreamTestHarness	typeref:typename:std::vector<std::string>
+_storage	libsponge/util/buffer.hh	/^    std::shared_ptr<std::string> _storage{};$/;"	m	class:Buffer	typeref:typename:std::shared_ptr<std::string>
+_sum	libsponge/util/util.hh	/^    uint32_t _sum;$/;"	m	class:InternetChecksum	typeref:typename:uint32_t
+_test_err_if	tests/test_err_if.hh	/^static void _test_err_if(const bool err_condition, const std::string &err_string, const int line/;"	f	typeref:typename:void
+_test_name	tests/byte_stream_test_harness.hh	/^    std::string _test_name;$/;"	m	class:ByteStreamTestHarness	typeref:typename:std::string
+_test_should_be	tests/test_should_be.hh	/^static void _test_should_be(const T &actual,$/;"	f	typeref:typename:void
+_unparse_int	libsponge/util/parser.cc	/^void NetUnparser::_unparse_int(string &s, T val) {$/;"	f	class:NetUnparser	typeref:typename:void
+_views	libsponge/util/buffer.hh	/^    std::deque<std::string_view> _views{};$/;"	m	class:BufferViewList	typeref:typename:std::deque<std::string_view>
+_write_count	libsponge/util/file_descriptor.hh	/^        unsigned _write_count = 0;  \/\/!< The numberof times FDWrapper::_fd has been written$/;"	m	class:FileDescriptor::FDWrapper	typeref:typename:unsigned
+a_dns_server	doctests/address_example_2.cc	/^const Address a_dns_server("18.71.0.151", 53);$/;"	v	typeref:typename:const Address
+a_dns_server_numeric	doctests/address_example_3.cc	/^const uint32_t a_dns_server_numeric = a_dns_server.ipv4_numeric();$/;"	v	typeref:typename:const uint32_t
+accept	libsponge/util/socket.cc	/^TCPSocket TCPSocket::accept() {$/;"	f	class:TCPSocket	typeref:typename:TCPSocket
+add	libsponge/util/util.cc	/^void InternetChecksum::add(std::string_view data) {$/;"	f	class:InternetChecksum	typeref:typename:void
+add_rule	libsponge/util/eventloop.cc	/^void EventLoop::add_rule(const FileDescriptor &fd,$/;"	f	class:EventLoop	typeref:typename:void
+add_sponge_exec	etc/build_defs.cmake	/^macro (add_sponge_exec exec_name)$/;"	m
+add_test_exec	tests/CMakeLists.txt	/^macro (add_test_exec exec_name)$/;"	m
+address_dt	build/Makefile	/^address_dt: cmake_check_build_system$/;"	t
+address_dt	build/doctests/Makefile	/^address_dt: doctests\/CMakeFiles\/address_dt.dir\/rule$/;"	t
+address_dt.cc.i	build/doctests/Makefile	/^address_dt.cc.i:$/;"	t
+address_dt.cc.o	build/doctests/Makefile	/^address_dt.cc.o:$/;"	t
+address_dt.cc.s	build/doctests/Makefile	/^address_dt.cc.s:$/;"	t
+address_dt.i	build/doctests/Makefile	/^address_dt.i: address_dt.cc.i$/;"	t
+address_dt.o	build/doctests/Makefile	/^address_dt.o: address_dt.cc.o$/;"	t
+address_dt.s	build/doctests/Makefile	/^address_dt.s: address_dt.cc.s$/;"	t
+address_dt/fast	build/Makefile	/^address_dt\/fast:$/;"	t
+address_dt/fast	build/doctests/Makefile	/^address_dt\/fast:$/;"	t
+all	build/Makefile	/^all: cmake_check_build_system$/;"	t
+all	build/apps/Makefile	/^all: cmake_check_build_system$/;"	t
+all	build/doctests/Makefile	/^all: cmake_check_build_system$/;"	t
+all	build/libsponge/Makefile	/^all: cmake_check_build_system$/;"	t
+all	build/tests/Makefile	/^all: cmake_check_build_system$/;"	t
+append	libsponge/util/buffer.cc	/^void BufferList::append(const BufferList &other) {$/;"	f	class:BufferList	typeref:typename:void
+apps/CMakeFiles/webget.dir/rule	build/apps/Makefile	/^apps\/CMakeFiles\/webget.dir\/rule:$/;"	t
+as_iovecs	libsponge/util/buffer.cc	/^vector<iovec> BufferViewList::as_iovecs() const {$/;"	f	class:BufferViewList	typeref:typename:vector<iovec>
+as_string	libsponge/util/parser.cc	/^string as_string(const ParseResult r) {$/;"	f	typeref:typename:string
+at	libsponge/util/buffer.hh	/^    uint8_t at(const size_t n) const { return str().at(n); }$/;"	f	class:Buffer	typeref:typename:uint8_t
+bind	libsponge/util/socket.cc	/^void Socket::bind(const Address &address) { SystemCall("bind", ::bind(fd_num(), address, address/;"	f	class:Socket	typeref:typename:void
+body	etc/sponge_doxygen.css	/^html, body { background-color: #F8F8F8; }$/;"	s
+buffer	doctests/parser_example.cc	/^std::string buffer;$/;"	v	typeref:typename:std::string
+buffer	libsponge/util/parser.hh	/^    Buffer buffer() const { return _buffer; }$/;"	f	class:NetParser	typeref:typename:Buffer
+buffer_empty	libsponge/byte_stream.cc	/^bool ByteStream::buffer_empty() const { return {}; }$/;"	f	class:ByteStream	typeref:typename:bool
+buffer_size	libsponge/byte_stream.cc	/^size_t ByteStream::buffer_size() const { return {}; }$/;"	f	class:ByteStream	typeref:typename:size_t
+buffers	libsponge/util/buffer.hh	/^    const std::deque<Buffer> &buffers() const { return _buffers; }$/;"	f	class:BufferList	typeref:typename:const std::deque<Buffer> &
+build options	README.md	/^### build options$/;"	S
+byte_stream.cc.i	build/libsponge/Makefile	/^byte_stream.cc.i:$/;"	t
+byte_stream.cc.o	build/libsponge/Makefile	/^byte_stream.cc.o:$/;"	t
+byte_stream.cc.s	build/libsponge/Makefile	/^byte_stream.cc.s:$/;"	t
+byte_stream.i	build/libsponge/Makefile	/^byte_stream.i: byte_stream.cc.i$/;"	t
+byte_stream.o	build/libsponge/Makefile	/^byte_stream.o: byte_stream.cc.o$/;"	t
+byte_stream.s	build/libsponge/Makefile	/^byte_stream.s: byte_stream.cc.s$/;"	t
+byte_stream_capacity	build/Makefile	/^byte_stream_capacity: cmake_check_build_system$/;"	t
+byte_stream_capacity	build/tests/Makefile	/^byte_stream_capacity: tests\/CMakeFiles\/byte_stream_capacity.dir\/rule$/;"	t
+byte_stream_capacity.cc.i	build/tests/Makefile	/^byte_stream_capacity.cc.i:$/;"	t
+byte_stream_capacity.cc.o	build/tests/Makefile	/^byte_stream_capacity.cc.o:$/;"	t
+byte_stream_capacity.cc.s	build/tests/Makefile	/^byte_stream_capacity.cc.s:$/;"	t
+byte_stream_capacity.i	build/tests/Makefile	/^byte_stream_capacity.i: byte_stream_capacity.cc.i$/;"	t
+byte_stream_capacity.o	build/tests/Makefile	/^byte_stream_capacity.o: byte_stream_capacity.cc.o$/;"	t
+byte_stream_capacity.s	build/tests/Makefile	/^byte_stream_capacity.s: byte_stream_capacity.cc.s$/;"	t
+byte_stream_capacity/fast	build/Makefile	/^byte_stream_capacity\/fast:$/;"	t
+byte_stream_capacity/fast	build/tests/Makefile	/^byte_stream_capacity\/fast:$/;"	t
+byte_stream_construction	build/Makefile	/^byte_stream_construction: cmake_check_build_system$/;"	t
+byte_stream_construction	build/tests/Makefile	/^byte_stream_construction: tests\/CMakeFiles\/byte_stream_construction.dir\/rule$/;"	t
+byte_stream_construction.cc.i	build/tests/Makefile	/^byte_stream_construction.cc.i:$/;"	t
+byte_stream_construction.cc.o	build/tests/Makefile	/^byte_stream_construction.cc.o:$/;"	t
+byte_stream_construction.cc.s	build/tests/Makefile	/^byte_stream_construction.cc.s:$/;"	t
+byte_stream_construction.i	build/tests/Makefile	/^byte_stream_construction.i: byte_stream_construction.cc.i$/;"	t
+byte_stream_construction.o	build/tests/Makefile	/^byte_stream_construction.o: byte_stream_construction.cc.o$/;"	t
+byte_stream_construction.s	build/tests/Makefile	/^byte_stream_construction.s: byte_stream_construction.cc.s$/;"	t
+byte_stream_construction/fast	build/Makefile	/^byte_stream_construction\/fast:$/;"	t
+byte_stream_construction/fast	build/tests/Makefile	/^byte_stream_construction\/fast:$/;"	t
+byte_stream_many_writes	build/Makefile	/^byte_stream_many_writes: cmake_check_build_system$/;"	t
+byte_stream_many_writes	build/tests/Makefile	/^byte_stream_many_writes: tests\/CMakeFiles\/byte_stream_many_writes.dir\/rule$/;"	t
+byte_stream_many_writes.cc.i	build/tests/Makefile	/^byte_stream_many_writes.cc.i:$/;"	t
+byte_stream_many_writes.cc.o	build/tests/Makefile	/^byte_stream_many_writes.cc.o:$/;"	t
+byte_stream_many_writes.cc.s	build/tests/Makefile	/^byte_stream_many_writes.cc.s:$/;"	t
+byte_stream_many_writes.i	build/tests/Makefile	/^byte_stream_many_writes.i: byte_stream_many_writes.cc.i$/;"	t
+byte_stream_many_writes.o	build/tests/Makefile	/^byte_stream_many_writes.o: byte_stream_many_writes.cc.o$/;"	t
+byte_stream_many_writes.s	build/tests/Makefile	/^byte_stream_many_writes.s: byte_stream_many_writes.cc.s$/;"	t
+byte_stream_many_writes/fast	build/Makefile	/^byte_stream_many_writes\/fast:$/;"	t
+byte_stream_many_writes/fast	build/tests/Makefile	/^byte_stream_many_writes\/fast:$/;"	t
+byte_stream_one_write	build/Makefile	/^byte_stream_one_write: cmake_check_build_system$/;"	t
+byte_stream_one_write	build/tests/Makefile	/^byte_stream_one_write: tests\/CMakeFiles\/byte_stream_one_write.dir\/rule$/;"	t
+byte_stream_one_write.cc.i	build/tests/Makefile	/^byte_stream_one_write.cc.i:$/;"	t
+byte_stream_one_write.cc.o	build/tests/Makefile	/^byte_stream_one_write.cc.o:$/;"	t
+byte_stream_one_write.cc.s	build/tests/Makefile	/^byte_stream_one_write.cc.s:$/;"	t
+byte_stream_one_write.i	build/tests/Makefile	/^byte_stream_one_write.i: byte_stream_one_write.cc.i$/;"	t
+byte_stream_one_write.o	build/tests/Makefile	/^byte_stream_one_write.o: byte_stream_one_write.cc.o$/;"	t
+byte_stream_one_write.s	build/tests/Makefile	/^byte_stream_one_write.s: byte_stream_one_write.cc.s$/;"	t
+byte_stream_one_write/fast	build/Makefile	/^byte_stream_one_write\/fast:$/;"	t
+byte_stream_one_write/fast	build/tests/Makefile	/^byte_stream_one_write\/fast:$/;"	t
+byte_stream_test_harness.cc.i	build/tests/Makefile	/^byte_stream_test_harness.cc.i:$/;"	t
+byte_stream_test_harness.cc.o	build/tests/Makefile	/^byte_stream_test_harness.cc.o:$/;"	t
+byte_stream_test_harness.cc.s	build/tests/Makefile	/^byte_stream_test_harness.cc.s:$/;"	t
+byte_stream_test_harness.i	build/tests/Makefile	/^byte_stream_test_harness.i: byte_stream_test_harness.cc.i$/;"	t
+byte_stream_test_harness.o	build/tests/Makefile	/^byte_stream_test_harness.o: byte_stream_test_harness.cc.o$/;"	t
+byte_stream_test_harness.s	build/tests/Makefile	/^byte_stream_test_harness.s: byte_stream_test_harness.cc.s$/;"	t
+byte_stream_two_writes	build/Makefile	/^byte_stream_two_writes: cmake_check_build_system$/;"	t
+byte_stream_two_writes	build/tests/Makefile	/^byte_stream_two_writes: tests\/CMakeFiles\/byte_stream_two_writes.dir\/rule$/;"	t
+byte_stream_two_writes.cc.i	build/tests/Makefile	/^byte_stream_two_writes.cc.i:$/;"	t
+byte_stream_two_writes.cc.o	build/tests/Makefile	/^byte_stream_two_writes.cc.o:$/;"	t
+byte_stream_two_writes.cc.s	build/tests/Makefile	/^byte_stream_two_writes.cc.s:$/;"	t
+byte_stream_two_writes.i	build/tests/Makefile	/^byte_stream_two_writes.i: byte_stream_two_writes.cc.i$/;"	t
+byte_stream_two_writes.o	build/tests/Makefile	/^byte_stream_two_writes.o: byte_stream_two_writes.cc.o$/;"	t
+byte_stream_two_writes.s	build/tests/Makefile	/^byte_stream_two_writes.s: byte_stream_two_writes.cc.s$/;"	t
+byte_stream_two_writes/fast	build/Makefile	/^byte_stream_two_writes\/fast:$/;"	t
+byte_stream_two_writes/fast	build/tests/Makefile	/^byte_stream_two_writes\/fast:$/;"	t
+bytes_read	libsponge/byte_stream.cc	/^size_t ByteStream::bytes_read() const { return {}; }$/;"	f	class:ByteStream	typeref:typename:size_t
+bytes_written	libsponge/byte_stream.cc	/^size_t ByteStream::bytes_written() const { return {}; }$/;"	f	class:ByteStream	typeref:typename:size_t
+callback	libsponge/util/eventloop.hh	/^        CallbackT callback;   \/\/!< A callback that reads or writes fd.$/;"	m	class:EventLoop::Rule	typeref:typename:CallbackT
+cancel	libsponge/util/eventloop.hh	/^        CallbackT cancel;     \/\/!< A callback that is called when the rule is cancelled (e.g. /;"	m	class:EventLoop::Rule	typeref:typename:CallbackT
+check	build/Makefile	/^check: cmake_check_build_system$/;"	t
+check	etc/tests.cmake	/^add_custom_target (check COMMAND "${PROJECT_SOURCE_DIR}\/tun.sh" check 144 145$/;"	t
+check/fast	build/Makefile	/^check\/fast:$/;"	t
+check_lab0	build/Makefile	/^check_lab0: cmake_check_build_system$/;"	t
+check_lab0	etc/tests.cmake	/^add_custom_target (check_lab0 COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure --timeout 10 -R/;"	t
+check_lab0/fast	build/Makefile	/^check_lab0\/fast:$/;"	t
+check_lab1	build/Makefile	/^check_lab1: cmake_check_build_system$/;"	t
+check_lab1	etc/tests.cmake	/^add_custom_target (check_lab1 COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure --timeout 10 -R/;"	t
+check_lab1/fast	build/Makefile	/^check_lab1\/fast:$/;"	t
+check_lab2	build/Makefile	/^check_lab2: cmake_check_build_system$/;"	t
+check_lab2	etc/tests.cmake	/^add_custom_target (check_lab2 COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure --timeout 10 -R/;"	t
+check_lab2/fast	build/Makefile	/^check_lab2\/fast:$/;"	t
+check_lab3	build/Makefile	/^check_lab3: cmake_check_build_system$/;"	t
+check_lab3	etc/tests.cmake	/^add_custom_target (check_lab3 COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure --timeout 10 -R/;"	t
+check_lab3/fast	build/Makefile	/^check_lab3\/fast:$/;"	t
+check_lab4	build/Makefile	/^check_lab4: cmake_check_build_system$/;"	t
+check_lab4	etc/tests.cmake	/^add_custom_target (check_lab4 COMMAND "${PROJECT_SOURCE_DIR}\/tun.sh" check 144 145$/;"	t
+check_lab4/fast	build/Makefile	/^check_lab4\/fast:$/;"	t
+check_lab5	build/Makefile	/^check_lab5: cmake_check_build_system$/;"	t
+check_lab5	etc/tests.cmake	/^add_custom_target (check_lab5 COMMAND "${PROJECT_SOURCE_DIR}\/tap.sh" check 10$/;"	t
+check_lab5/fast	build/Makefile	/^check_lab5\/fast:$/;"	t
+check_lab6	build/Makefile	/^check_lab6: cmake_check_build_system$/;"	t
+check_lab6	etc/tests.cmake	/^add_custom_target (check_lab6 COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure --timeout 10 -R/;"	t
+check_lab6/fast	build/Makefile	/^check_lab6\/fast:$/;"	t
+	build/Makefile	/^check_webget: cmake_check_build_system$/;"	t
+check_webget	etc/tests.cmake	/^add_custom_target (check_webget COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure --timeout 10 /;"	t
+check_webget/fast	build/Makefile	/^check_webget\/fast:$/;"	t
+clean	build/Makefile	/^clean:$/;"	t
+clean	build/apps/Makefile	/^clean:$/;"	t
+clean	build/doctests/Makefile	/^clean:$/;"	t
+clean	build/libsponge/Makefile	/^clean:$/;"	t
+clean	build/tests/Makefile	/^clean:$/;"	t
+clean/fast	build/Makefile	/^clean\/fast: clean$/;"	t
+clean/fast	build/apps/Makefile	/^clean\/fast: clean$/;"	t
+clean/fast	build/doctests/Makefile	/^clean\/fast: clean$/;"	t
+clean/fast	build/libsponge/Makefile	/^clean\/fast: clean$/;"	t
+clean/fast	build/tests/Makefile	/^clean\/fast: clean$/;"	t
+close	libsponge/util/file_descriptor.cc	/^void FileDescriptor::FDWrapper::close() {$/;"	f	class:FileDescriptor::FDWrapper	typeref:typename:void
+close	libsponge/util/file_descriptor.hh	/^    void close() { _internal_fd->close(); }$/;"	f	class:FileDescriptor	typeref:typename:void
+closed	libsponge/util/file_descriptor.hh	/^    bool closed() const { return _internal_fd->_closed; }$/;"	f	class:FileDescriptor	typeref:typename:bool
+cmake_check_build_system	build/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_check_build_system	build/apps/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_check_build_system	build/doctests/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_check_build_system	build/libsponge/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_check_build_system	build/tests/Makefile	/^cmake_check_build_system:$/;"	t
+cmake_force	build/Makefile	/^cmake_force:$/;"	t
+cmake_force	build/apps/Makefile	/^cmake_force:$/;"	t
+cmake_force	build/doctests/Makefile	/^cmake_force:$/;"	t
+cmake_force	build/libsponge/Makefile	/^cmake_force:$/;"	t
+cmake_force	build/tests/Makefile	/^cmake_force:$/;"	t
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:0
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:1
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:10
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:11
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:12
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:13
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:14
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:15
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:16
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:17
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:18
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:2
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:3
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:4
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:5
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:6
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:7
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:8
+command	build/compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:9
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:0
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:1
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:10
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:11
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:12
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:13
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:14
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:15
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:16
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:17
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:18
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:2
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:3
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:4
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:5
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:6
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:7
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:8
+command	compile_commands.json	/^  "command": "\/usr\/bin\/c++   -I\/home\/heiyan\/cs144\/sponge\/libsponge\/util -I\/home\/heiya/;"	s	object:9
+concatenate	libsponge/util/buffer.cc	/^string BufferList::concatenate() const {$/;"	f	class:BufferList	typeref:typename:string
+connect	libsponge/util/socket.cc	/^void Socket::connect(const Address &address) { SystemCall("connect", ::connect(fd_num(), address/;"	f	class:Socket	typeref:typename:void
+const	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+copy	libsponge/util/buffer.hh	/^    std::string copy() const { return std::string(str()); }$/;"	f	class:Buffer	typeref:typename:std::string
+cppcheck	etc/cppcheck.cmake	/^    add_custom_target (cppcheck ${CPPCHECK} --enable=all --project="${PROJECT_BINARY_DIR}\/compi/;"	t
+default_build_type	etc/build_type.cmake	/^set (default_build_type "Release")$/;"	v
+default_target	build/Makefile	/^default_target: all$/;"	t
+default_target	build/apps/Makefile	/^default_target: all$/;"	t
+default_target	build/doctests/Makefile	/^default_target: all$/;"	t
+default_target	build/libsponge/Makefile	/^default_target: all$/;"	t
+default_target	build/tests/Makefile	/^default_target: all$/;"	t
+depend	build/Makefile	/^depend:$/;"	t
+depend	build/apps/Makefile	/^depend:$/;"	t
+depend	build/doctests/Makefile	/^depend:$/;"	t
+depend	build/libsponge/Makefile	/^depend:$/;"	t
+depend	build/tests/Makefile	/^depend:$/;"	t
+description	tests/byte_stream_test_harness.cc	/^std::string BufferEmpty::description() const { return "buffer_empty: " + to_string(_buffer_empty/;"	f	class:BufferEmpty	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string BufferSize::description() const { return "buffer_size: " + to_string(_buffer_size); /;"	f	class:BufferSize	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string ByteStreamAction::description() const { return "description missing"; }$/;"	f	class:ByteStreamAction	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string ByteStreamExpectation::description() const { return "description missing"; }$/;"	f	class:ByteStreamExpectation	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string BytesRead::description() const { return "bytes_read: " + to_string(_bytes_read); }$/;"	f	class:BytesRead	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string BytesWritten::description() const { return "bytes_written: " + to_string(_bytes_writ/;"	f	class:BytesWritten	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string EndInput::description() const { return "end input"; }$/;"	f	class:EndInput	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string Eof::description() const { return "eof: " + to_string(_eof); }$/;"	f	class:Eof	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string InputEnded::description() const { return "input_ended: " + to_string(_input_ended); /;"	f	class:InputEnded	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string Peek::description() const { return "\\"" + _output + "\\" at the front of the stream/;"	f	class:Peek	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string Pop::description() const { return "pop " + to_string(_len); }$/;"	f	class:Pop	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string RemainingCapacity::description() const { return "remaining_capacity: " + to_string(_/;"	f	class:RemainingCapacity	typeref:typename:std::string
+description	tests/byte_stream_test_harness.cc	/^std::string Write::description() const { return "write \\"" + _data + "\\" to the stream"; }$/;"	f	class:Write	typeref:typename:std::string
+direction	libsponge/util/eventloop.hh	/^        Direction direction;  \/\/!< Direction::In for reading from fd, Direction::Out for writi/;"	m	class:EventLoop::Rule	typeref:typename:Direction
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/apps",$/;"	s	object:9
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/doctests",$/;"	s	object:16
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/doctests",$/;"	s	object:17
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/doctests",$/;"	s	object:18
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:0
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:1
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:2
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:3
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:4
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:5
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:6
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:7
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:8
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:10
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:11
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:12
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:13
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:14
+directory	build/compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:15
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/apps",$/;"	s	object:9
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/doctests",$/;"	s	object:16
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/doctests",$/;"	s	object:17
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/doctests",$/;"	s	object:18
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:0
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:1
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:2
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:3
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:4
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:5
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:6
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:7
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/libsponge",$/;"	s	object:8
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:10
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:11
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:12
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:13
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:14
+directory	compile_commands.json	/^  "directory": "\/home\/heiyan\/cs144\/sponge\/build\/tests",$/;"	s	object:15
+div.contents	etc/sponge_doxygen.css	/^div.contents {$/;"	c
+div.line	etc/sponge_doxygen.css	/^div.line,pre.fragment { line-height: 1.5; }$/;"	c
+div.memdoc>p	etc/sponge_doxygen.css	/^div.textblock>p,div.memdoc>p,dl.section.note>dd { max-width: 750px; }$/;"	c
+div.textblock>p	etc/sponge_doxygen.css	/^div.textblock>p,div.memdoc>p,dl.section.note>dd { max-width: 750px; }$/;"	c
+dl.section.note>dd	etc/sponge_doxygen.css	/^div.textblock>p,div.memdoc>p,dl.section.note>dd { max-width: 750px; }$/;"	c
+doc	build/Makefile	/^doc: cmake_check_build_system$/;"	t
+doc	etc/doxygen.cmake	/^    add_custom_target (doc "${DOXYGEN_EXECUTABLE}" "${PROJECT_BINARY_DIR}\/Doxyfile"$/;"	t
+doc/fast	build/Makefile	/^doc\/fast:$/;"	t
+doctests/CMakeFiles/address_dt.dir/rule	build/doctests/Makefile	/^doctests\/CMakeFiles\/address_dt.dir\/rule:$/;"	t
+doctests/CMakeFiles/parser_dt.dir/rule	build/doctests/Makefile	/^doctests\/CMakeFiles\/parser_dt.dir\/rule:$/;"	t
+doctests/CMakeFiles/socket_dt.dir/rule	build/doctests/Makefile	/^doctests\/CMakeFiles\/socket_dt.dir\/rule:$/;"	t
+duplicate	libsponge/util/file_descriptor.cc	/^FileDescriptor FileDescriptor::duplicate() const { return FileDescriptor(_internal_fd); }$/;"	f	class:FileDescriptor	typeref:typename:FileDescriptor
+edit_cache	build/Makefile	/^edit_cache:$/;"	t
+edit_cache	build/apps/Makefile	/^edit_cache:$/;"	t
+edit_cache	build/doctests/Makefile	/^edit_cache:$/;"	t
+edit_cache	build/libsponge/Makefile	/^edit_cache:$/;"	t
+edit_cache	build/tests/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+edit_cache/fast	build/apps/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+edit_cache/fast	build/doctests/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+edit_cache/fast	build/libsponge/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+edit_cache/fast	build/tests/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+end_input	libsponge/byte_stream.cc	/^void ByteStream::end_input() {}$/;"	f	class:ByteStream	typeref:typename:void
+eof	libsponge/byte_stream.cc	/^bool ByteStream::eof() const { return false; }$/;"	f	class:ByteStream	typeref:typename:bool
+eof	libsponge/util/file_descriptor.hh	/^    bool eof() const { return _internal_fd->_eof; }$/;"	f	class:FileDescriptor	typeref:typename:bool
+err_num	tests/test_err_if.hh	/^static int err_num = 1;$/;"	v	typeref:typename:int
+error	libsponge/byte_stream.hh	/^    bool error() const { return _error; }$/;"	f	class:ByteStream	typeref:typename:bool
+error	libsponge/util/parser.hh	/^    bool error() const { return get_error() != ParseResult::NoError; }$/;"	f	class:NetParser	typeref:typename:bool
+execute	tests/byte_stream_test_harness.cc	/^void BufferEmpty::execute(ByteStream &bs) const {$/;"	f	class:BufferEmpty	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void BufferSize::execute(ByteStream &bs) const {$/;"	f	class:BufferSize	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void ByteStreamAction::execute(ByteStream &) const {}$/;"	f	class:ByteStreamAction	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void ByteStreamExpectation::execute(ByteStream &) const {}$/;"	f	class:ByteStreamExpectation	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void ByteStreamTestHarness::execute(const ByteStreamTestStep &step) {$/;"	f	class:ByteStreamTestHarness	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void ByteStreamTestStep::execute(ByteStream &) const {}$/;"	f	class:ByteStreamTestStep	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void BytesRead::execute(ByteStream &bs) const {$/;"	f	class:BytesRead	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void BytesWritten::execute(ByteStream &bs) const {$/;"	f	class:BytesWritten	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void EndInput::execute(ByteStream &bs) const { bs.end_input(); }$/;"	f	class:EndInput	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void Eof::execute(ByteStream &bs) const {$/;"	f	class:Eof	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void InputEnded::execute(ByteStream &bs) const {$/;"	f	class:InputEnded	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void Peek::execute(ByteStream &bs) const {$/;"	f	class:Peek	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void Pop::execute(ByteStream &bs) const { bs.pop_output(_len); }$/;"	f	class:Pop	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void RemainingCapacity::execute(ByteStream &bs) const {$/;"	f	class:RemainingCapacity	typeref:typename:void
+execute	tests/byte_stream_test_harness.cc	/^void Write::execute(ByteStream &bs) const {$/;"	f	class:Write	typeref:typename:void
+fd	libsponge/util/eventloop.hh	/^        FileDescriptor fd;    \/\/!< FileDescriptor to monitor for activity.$/;"	m	class:EventLoop::Rule	typeref:typename:FileDescriptor
+fd_num	libsponge/util/file_descriptor.hh	/^    int fd_num() const { return _internal_fd->_fd; }$/;"	f	class:FileDescriptor	typeref:typename:int
+fds	doctests/socket_example_3.cc	/^std::array<int, 2> fds{};$/;"	v	typeref:typename:std::array<int,2>
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/apps\/webget.cc"$/;"	s	object:9
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/doctests\/address_dt.cc"$/;"	s	object:18
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/doctests\/parser_dt.cc"$/;"	s	object:16
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/doctests\/socket_dt.cc"$/;"	s	object:17
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/byte_stream.cc"$/;"	s	object:0
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/address.cc"$/;"	s	object:1
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/buffer.cc"$/;"	s	object:2
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/eventloop.cc"$/;"	s	object:3
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/file_descriptor.cc"$/;"	s	object:4
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/parser.cc"$/;"	s	object:5
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/socket.cc"$/;"	s	object:6
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/tun.cc"$/;"	s	object:7
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/util.cc"$/;"	s	object:8
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_capacity.cc"$/;"	s	object:11
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_construction.cc"$/;"	s	object:14
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_many_writes.cc"$/;"	s	object:10
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_one_write.cc"$/;"	s	object:13
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_test_harness.cc"$/;"	s	object:15
+file	build/compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_two_writes.cc"$/;"	s	object:12
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/apps\/webget.cc"$/;"	s	object:9
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/doctests\/address_dt.cc"$/;"	s	object:18
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/doctests\/parser_dt.cc"$/;"	s	object:16
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/doctests\/socket_dt.cc"$/;"	s	object:17
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/byte_stream.cc"$/;"	s	object:0
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/address.cc"$/;"	s	object:1
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/buffer.cc"$/;"	s	object:2
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/eventloop.cc"$/;"	s	object:3
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/file_descriptor.cc"$/;"	s	object:4
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/parser.cc"$/;"	s	object:5
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/socket.cc"$/;"	s	object:6
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/tun.cc"$/;"	s	object:7
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/libsponge\/util\/util.cc"$/;"	s	object:8
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_capacity.cc"$/;"	s	object:11
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_construction.cc"$/;"	s	object:14
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_many_writes.cc"$/;"	s	object:10
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_one_write.cc"$/;"	s	object:13
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_test_harness.cc"$/;"	s	object:15
+file	compile_commands.json	/^  "file": "\/home\/heiyan\/cs144\/sponge\/tests\/byte_stream_two_writes.cc"$/;"	s	object:12
+format	build/Makefile	/^format: cmake_check_build_system$/;"	t
+format	etc/clang_format.cmake	/^    add_custom_target (format ${CLANG_FORMAT} -i ${ALL_CC_FILES} ${ALL_HH_FILES} COMMENT "Format/;"	t
+format	etc/clang_format.cmake	/^    add_custom_target (format echo "Could not find clang-format. Please install and re-run cmake/;"	t
+format/fast	build/Makefile	/^format\/fast:$/;"	t
+from_ipv4_numeric	libsponge/util/address.cc	/^Address Address::from_ipv4_numeric(const uint32_t ip_address) {$/;"	f	class:Address	typeref:typename:Address
+gai_error_category	libsponge/util/address.cc	/^class gai_error_category : public error_category {$/;"	c	file:
+get_URL	apps/webget.cc	/^void get_URL(const string &host, const string &path) {$/;"	f	typeref:typename:void
+get_address	libsponge/util/socket.cc	/^Address Socket::get_address(const string &name_of_function,$/;"	f	class:Socket	typeref:typename:Address
+get_error	libsponge/util/parser.hh	/^    ParseResult get_error() const { return _error; }$/;"	f	class:NetParser	typeref:typename:ParseResult
+get_random_generator	libsponge/util/util.cc	/^mt19937 get_random_generator() {$/;"	f	typeref:typename:mt19937
+google_webserver	doctests/address_example_1.cc	/^const Address google_webserver("www.google.com", "https");$/;"	v	typeref:typename:const Address
+help	build/Makefile	/^help:$/;"	t
+help	build/apps/Makefile	/^help:$/;"	t
+help	build/doctests/Makefile	/^help:$/;"	t
+help	build/libsponge/Makefile	/^help:$/;"	t
+help	build/tests/Makefile	/^help:$/;"	t
+hexdump	libsponge/util/util.cc	/^void hexdump(const char *data, const size_t len, const size_t indent) {$/;"	f	typeref:typename:void
+hexdump	libsponge/util/util.cc	/^void hexdump(const uint8_t *data, const size_t len, const size_t indent) {$/;"	f	typeref:typename:void
+html	etc/sponge_doxygen.css	/^html, body { background-color: #F8F8F8; }$/;"	s
+info_arch	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_language_dialect_default	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_dialect_default =$/;"	v	typeref:typename:const char *
+info_language_dialect_default	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	typeref:typename:const char *
+info_platform	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate_version	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+input_ended	libsponge/byte_stream.cc	/^bool ByteStream::input_ended() const { return {}; }$/;"	f	class:ByteStream	typeref:typename:bool
+interest	libsponge/util/eventloop.hh	/^        InterestT interest;   \/\/!< A callback that returns `true` whenever fd should be polled/;"	m	class:EventLoop::Rule	typeref:typename:InterestT
+ip	libsponge/util/address.hh	/^    std::string ip() const { return ip_port().first; }$/;"	f	class:Address	typeref:typename:std::string
+ip_port	libsponge/util/address.cc	/^pair<string, uint16_t> Address::ip_port() const {$/;"	f	class:Address	typeref:typename:pair<string,uint16_t>
+ipv4_numeric	libsponge/util/address.cc	/^uint32_t Address::ipv4_numeric() const {$/;"	f	class:Address	typeref:typename:uint32_t
+libsponge/CMakeFiles/sponge.dir/rule	build/libsponge/Makefile	/^libsponge\/CMakeFiles\/sponge.dir\/rule:$/;"	t
+listen	libsponge/util/socket.cc	/^void TCPSocket::listen(const int backlog) { SystemCall("listen", ::listen(fd_num(), backlog)); }$/;"	f	class:TCPSocket	typeref:typename:void
+local_address	libsponge/util/socket.cc	/^Address Socket::local_address() const { return get_address("getsockname", getsockname); }$/;"	f	class:Socket	typeref:typename:Address
+main	apps/webget.cc	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
+main	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	doctests/address_dt.cc	/^int main() {$/;"	f	typeref:typename:int
+main	doctests/parser_dt.cc	/^int main() {$/;"	f	typeref:typename:int
+main	doctests/socket_dt.cc	/^int main() {$/;"	f	typeref:typename:int
+main	tests/byte_stream_capacity.cc	/^int main() {$/;"	f	typeref:typename:int
+main	tests/byte_stream_construction.cc	/^int main() {$/;"	f	typeref:typename:int
+main	tests/byte_stream_many_writes.cc	/^int main() {$/;"	f	typeref:typename:int
+main	tests/byte_stream_one_write.cc	/^int main() {$/;"	f	typeref:typename:int
+main	tests/byte_stream_two_writes.cc	/^int main() {$/;"	f	typeref:typename:int
+make_hints	libsponge/util/address.cc	/^static inline addrinfo make_hints(const int ai_flags, const int ai_family) {$/;"	f	typeref:typename:addrinfo	file:
+message	libsponge/util/address.cc	/^    string message(const int return_value) const noexcept override { return gai_strerror(return_/;"	f	class:gai_error_category	typeref:typename:string	file:
+name	libsponge/util/address.cc	/^    const char *name() const noexcept override { return "gai_error_category"; }$/;"	f	class:gai_error_category	typeref:typename:const char *	file:
+operator !=	libsponge/util/address.hh	/^    bool operator!=(const Address &other) const { return not operator==(other); }$/;"	f	class:Address	typeref:typename:bool
+operator ==	libsponge/util/address.cc	/^bool Address::operator==(const Address &other) const {$/;"	f	class:Address	typeref:typename:bool
+other useful targets	README.md	/^### other useful targets$/;"	S
+out0	doctests/parser_example.cc	/^uint8_t out0, out3;$/;"	v	typeref:typename:uint8_t
+out1	doctests/parser_example.cc	/^uint32_t out1, out4;$/;"	v	typeref:typename:uint32_t
+out2	doctests/parser_example.cc	/^uint16_t out2;$/;"	v	typeref:typename:uint16_t
+out3	doctests/parser_example.cc	/^uint8_t out0, out3;$/;"	v	typeref:typename:uint8_t
+out4	doctests/parser_example.cc	/^uint32_t out1, out4;$/;"	v	typeref:typename:uint32_t
+p	doctests/parser_example.cc	/^    NetParser p{std::string(buffer)};  \/\/ NOTE: starting at offset 0$/;"	v	typeref:typename:NetParser
+p	doctests/parser_example.cc	/^    NetUnparser p;$/;"	v	typeref:typename:NetUnparser
+parser_dt	build/Makefile	/^parser_dt: cmake_check_build_system$/;"	t
+parser_dt	build/doctests/Makefile	/^parser_dt: doctests\/CMakeFiles\/parser_dt.dir\/rule$/;"	t
+parser_dt.cc.i	build/doctests/Makefile	/^parser_dt.cc.i:$/;"	t
+parser_dt.cc.o	build/doctests/Makefile	/^parser_dt.cc.o:$/;"	t
+parser_dt.cc.s	build/doctests/Makefile	/^parser_dt.cc.s:$/;"	t
+parser_dt.i	build/doctests/Makefile	/^parser_dt.i: parser_dt.cc.i$/;"	t
+parser_dt.o	build/doctests/Makefile	/^parser_dt.o: parser_dt.cc.o$/;"	t
+parser_dt.s	build/doctests/Makefile	/^parser_dt.s: parser_dt.cc.s$/;"	t
+parser_dt/fast	build/Makefile	/^parser_dt\/fast:$/;"	t
+parser_dt/fast	build/doctests/Makefile	/^parser_dt\/fast:$/;"	t
+payload	libsponge/util/socket.hh	/^        std::string payload;     \/\/!< UDP datagram payload$/;"	m	struct:UDPSocket::received_datagram	typeref:typename:std::string
+peek_output	libsponge/byte_stream.cc	/^string ByteStream::peek_output(const size_t len) const {$/;"	f	class:ByteStream	typeref:typename:string
+peer_address	libsponge/util/socket.cc	/^Address Socket::peer_address() const { return get_address("getpeername", getpeername); }$/;"	f	class:Socket	typeref:typename:Address
+pipe1	doctests/socket_example_3.cc	/^LocalStreamSocket pipe1{FileDescriptor(fds[0])}, pipe2{FileDescriptor(fds[1])};$/;"	v	typeref:typename:LocalStreamSocket
+pipe2	doctests/socket_example_3.cc	/^LocalStreamSocket pipe1{FileDescriptor(fds[0])}, pipe2{FileDescriptor(fds[1])};$/;"	v	typeref:typename:LocalStreamSocket
+pop_output	libsponge/byte_stream.cc	/^void ByteStream::pop_output(const size_t len) { DUMMY_CODE(len); }$/;"	f	class:ByteStream	typeref:typename:void
+port	libsponge/util/address.hh	/^    uint16_t port() const { return ip_port().second; }$/;"	f	class:Address	typeref:typename:uint16_t
+portnum	doctests/socket_example_1.cc	/^const uint16_t portnum = ((std::random_device()()) % 50000) + 1025;$/;"	v	typeref:typename:const uint16_t
+portnum	doctests/socket_example_2.cc	/^const uint16_t portnum = ((std::random_device()()) % 50000) + 1025;$/;"	v	typeref:typename:const uint16_t
+pre.fragment	etc/sponge_doxygen.css	/^div.line,pre.fragment { line-height: 1.5; }$/;"	c
+preinstall	build/Makefile	/^preinstall: all$/;"	t
+preinstall	build/apps/Makefile	/^preinstall: all$/;"	t
+preinstall	build/doctests/Makefile	/^preinstall: all$/;"	t
+preinstall	build/libsponge/Makefile	/^preinstall: all$/;"	t
+preinstall	build/tests/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	build/Makefile	/^preinstall\/fast:$/;"	t
+preinstall/fast	build/apps/Makefile	/^preinstall\/fast:$/;"	t
+preinstall/fast	build/doctests/Makefile	/^preinstall\/fast:$/;"	t
+preinstall/fast	build/libsponge/Makefile	/^preinstall\/fast:$/;"	t
+preinstall/fast	build/tests/Makefile	/^preinstall\/fast:$/;"	t
+property	tests/byte_stream_test_harness.cc	/^ByteStreamExpectationViolation ByteStreamExpectationViolation::property(const std::string &prope/;"	f	class:ByteStreamExpectationViolation	typeref:typename:ByteStreamExpectationViolation
+qnxnto	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+read	libsponge/byte_stream.cc	/^std::string ByteStream::read(const size_t len) {$/;"	f	class:ByteStream	typeref:typename:std::string
+read	libsponge/util/file_descriptor.cc	/^string FileDescriptor::read(const size_t limit) {$/;"	f	class:FileDescriptor	typeref:typename:string
+read	libsponge/util/file_descriptor.cc	/^void FileDescriptor::read(std::string &str, const size_t limit) {$/;"	f	class:FileDescriptor	typeref:typename:void
+read_count	libsponge/util/file_descriptor.hh	/^    unsigned int read_count() const { return _internal_fd->_read_count; }$/;"	f	class:FileDescriptor	typeref:typename:unsigned int
+rebuild_cache	build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache	build/apps/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache	build/doctests/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache	build/libsponge/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache	build/tests/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+rebuild_cache/fast	build/apps/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+rebuild_cache/fast	build/doctests/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+rebuild_cache/fast	build/libsponge/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+rebuild_cache/fast	build/tests/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+received_datagram	libsponge/util/socket.hh	/^    struct received_datagram {$/;"	s	class:UDPSocket
+recv	libsponge/util/socket.cc	/^UDPSocket::received_datagram UDPSocket::recv(const size_t mtu) {$/;"	f	class:UDPSocket	typeref:typename:UDPSocket::received_datagram
+recv	libsponge/util/socket.cc	/^void UDPSocket::recv(received_datagram &datagram, const size_t mtu) {$/;"	f	class:UDPSocket	typeref:typename:void
+recvd	doctests/socket_example_1.cc	/^auto recvd = sock1.recv();$/;"	v	typeref:typename:auto
+recvd	doctests/socket_example_2.cc	/^auto recvd = sock2.read();$/;"	v	typeref:typename:auto
+recvd	doctests/socket_example_3.cc	/^auto recvd = pipe2.read();$/;"	v	typeref:typename:auto
+recvd2	doctests/socket_example_1.cc	/^auto recvd2 = sock2.recv();$/;"	v	typeref:typename:auto
+recvd2	doctests/socket_example_2.cc	/^auto recvd2 = sock3.read();$/;"	v	typeref:typename:auto
+recvd2	doctests/socket_example_3.cc	/^auto recvd2 = pipe1.read();$/;"	v	typeref:typename:auto
+register_read	libsponge/util/file_descriptor.hh	/^    void register_read() { ++_internal_fd->_read_count; }    \/\/!< increment read count$/;"	f	class:FileDescriptor	typeref:typename:void
+register_write	libsponge/util/file_descriptor.hh	/^    void register_write() { ++_internal_fd->_write_count; }  \/\/!< increment write count$/;"	f	class:FileDescriptor	typeref:typename:void
+remaining_capacity	libsponge/byte_stream.cc	/^size_t ByteStream::remaining_capacity() const { return {}; }$/;"	f	class:ByteStream	typeref:typename:size_t
+remove_prefix	libsponge/util/buffer.cc	/^void Buffer::remove_prefix(const size_t n) {$/;"	f	class:Buffer	typeref:typename:void
+remove_prefix	libsponge/util/buffer.cc	/^void BufferList::remove_prefix(size_t n) {$/;"	f	class:BufferList	typeref:typename:void
+remove_prefix	libsponge/util/buffer.cc	/^void BufferViewList::remove_prefix(size_t n) {$/;"	f	class:BufferViewList	typeref:typename:void
+remove_prefix	libsponge/util/parser.cc	/^void NetParser::remove_prefix(const size_t n) {$/;"	f	class:NetParser	typeref:typename:void
+send	libsponge/util/socket.cc	/^void UDPSocket::send(const BufferViewList &payload) {$/;"	f	class:UDPSocket	typeref:typename:void
+sendmsg_helper	libsponge/util/socket.cc	/^void sendmsg_helper(const int fd_num,$/;"	f	typeref:typename:void
+sendto	libsponge/util/socket.cc	/^void UDPSocket::sendto(const Address &destination, const BufferViewList &payload) {$/;"	f	class:UDPSocket	typeref:typename:void
+service_count	libsponge/util/eventloop.cc	/^unsigned int EventLoop::Rule::service_count() const {$/;"	f	class:EventLoop::Rule	typeref:typename:unsigned int
+set_blocking	libsponge/util/file_descriptor.cc	/^void FileDescriptor::set_blocking(const bool blocking_state) {$/;"	f	class:FileDescriptor	typeref:typename:void
+set_error	libsponge/byte_stream.hh	/^    void set_error() { _error = true; }$/;"	f	class:ByteStream	typeref:typename:void
+set_error	libsponge/util/parser.hh	/^    void set_error(ParseResult res) { _error = res; }$/;"	f	class:NetParser	typeref:typename:void
+set_reuseaddr	libsponge/util/socket.cc	/^void Socket::set_reuseaddr() { setsockopt(SOL_SOCKET, SO_REUSEADDR, int(true)); }$/;"	f	class:Socket	typeref:typename:void
+setsockopt	libsponge/util/socket.cc	/^void Socket::setsockopt(const int level, const int option, const option_type &option_value) {$/;"	f	class:Socket	typeref:typename:void
+shutdown	libsponge/util/socket.cc	/^void Socket::shutdown(const int how) {$/;"	f	class:Socket	typeref:typename:void
+size	libsponge/util/address.hh	/^    socklen_t size() const { return _size; }$/;"	f	class:Address	typeref:typename:socklen_t
+size	libsponge/util/buffer.cc	/^size_t BufferList::size() const {$/;"	f	class:BufferList	typeref:typename:size_t
+size	libsponge/util/buffer.cc	/^size_t BufferViewList::size() const {$/;"	f	class:BufferViewList	typeref:typename:size_t
+size	libsponge/util/buffer.hh	/^    size_t size() const { return str().size(); }$/;"	f	class:Buffer	typeref:typename:size_t
+sock1	doctests/socket_example_1.cc	/^UDPSocket sock1;$/;"	v	typeref:typename:UDPSocket
+sock1	doctests/socket_example_2.cc	/^TCPSocket sock1;$/;"	v	typeref:typename:TCPSocket
+sock2	doctests/socket_example_1.cc	/^UDPSocket sock2;$/;"	v	typeref:typename:UDPSocket
+sock2	doctests/socket_example_2.cc	/^TCPSocket sock2;$/;"	v	typeref:typename:TCPSocket
+sock3	doctests/socket_example_2.cc	/^auto sock3 = sock1.accept();$/;"	v	typeref:typename:auto
+socket_dt	build/Makefile	/^socket_dt: cmake_check_build_system$/;"	t
+socket_dt	build/doctests/Makefile	/^socket_dt: doctests\/CMakeFiles\/socket_dt.dir\/rule$/;"	t
+socket_dt.cc.i	build/doctests/Makefile	/^socket_dt.cc.i:$/;"	t
+socket_dt.cc.o	build/doctests/Makefile	/^socket_dt.cc.o:$/;"	t
+socket_dt.cc.s	build/doctests/Makefile	/^socket_dt.cc.s:$/;"	t
+socket_dt.i	build/doctests/Makefile	/^socket_dt.i: socket_dt.cc.i$/;"	t
+socket_dt.o	build/doctests/Makefile	/^socket_dt.o: socket_dt.cc.o$/;"	t
+socket_dt.s	build/doctests/Makefile	/^socket_dt.s: socket_dt.cc.s$/;"	t
+socket_dt/fast	build/Makefile	/^socket_dt\/fast:$/;"	t
+socket_dt/fast	build/doctests/Makefile	/^socket_dt\/fast:$/;"	t
+source_address	libsponge/util/socket.hh	/^        Address source_address;  \/\/!< Address from which this datagram was received$/;"	m	struct:UDPSocket::received_datagram	typeref:typename:Address
+sponge	build/Makefile	/^sponge: cmake_check_build_system$/;"	t
+sponge	build/libsponge/Makefile	/^sponge: libsponge\/CMakeFiles\/sponge.dir\/rule$/;"	t
+sponge	libsponge/CMakeLists.txt	/^add_library (sponge STATIC ${LIB_SOURCES})$/;"	t
+sponge/fast	build/Makefile	/^sponge\/fast:$/;"	t
+sponge/fast	build/libsponge/Makefile	/^sponge\/fast:$/;"	t
+spongechecks	build/Makefile	/^spongechecks: cmake_check_build_system$/;"	t
+spongechecks	build/tests/Makefile	/^spongechecks: tests\/CMakeFiles\/spongechecks.dir\/rule$/;"	t
+spongechecks	tests/CMakeLists.txt	/^add_library (spongechecks STATIC byte_stream_test_harness.cc)$/;"	t
+spongechecks/fast	build/Makefile	/^spongechecks\/fast:$/;"	t
+spongechecks/fast	build/tests/Makefile	/^spongechecks\/fast:$/;"	t
+storage	libsponge/util/address.hh	/^        sockaddr_storage storage{};  \/\/!< The wrapped struct itself.$/;"	m	class:Address::Raw	typeref:typename:sockaddr_storage
+str	libsponge/util/buffer.hh	/^    std::string_view str() const {$/;"	f	class:Buffer	typeref:typename:std::string_view
+tagged_error	libsponge/util/util.hh	/^    tagged_error(const std::error_category &category, const std::string &attempt, const int erro/;"	f	class:tagged_error
+tagged_error	libsponge/util/util.hh	/^class tagged_error : public std::system_error {$/;"	c
+test	build/Makefile	/^test:$/;"	t
+test	build/apps/Makefile	/^test:$/;"	t
+test	build/doctests/Makefile	/^test:$/;"	t
+test	build/libsponge/Makefile	/^test:$/;"	t
+test	build/tests/Makefile	/^test:$/;"	t
+test/fast	build/Makefile	/^test\/fast: test$/;"	t
+test/fast	build/apps/Makefile	/^test\/fast: test$/;"	t
+test/fast	build/doctests/Makefile	/^test\/fast: test$/;"	t
+test/fast	build/libsponge/Makefile	/^test\/fast: test$/;"	t
+test/fast	build/tests/Makefile	/^test\/fast: test$/;"	t
+test_err_if	tests/test_err_if.hh	/^#define test_err_if(/;"	d
+test_should_be	tests/test_should_be.hh	/^#define test_should_be(/;"	d
+tests/CMakeFiles/byte_stream_capacity.dir/rule	build/tests/Makefile	/^tests\/CMakeFiles\/byte_stream_capacity.dir\/rule:$/;"	t
+tests/CMakeFiles/byte_stream_construction.dir/rule	build/tests/Makefile	/^tests\/CMakeFiles\/byte_stream_construction.dir\/rule:$/;"	t
+tests/CMakeFiles/byte_stream_many_writes.dir/rule	build/tests/Makefile	/^tests\/CMakeFiles\/byte_stream_many_writes.dir\/rule:$/;"	t
+tests/CMakeFiles/byte_stream_one_write.dir/rule	build/tests/Makefile	/^tests\/CMakeFiles\/byte_stream_one_write.dir\/rule:$/;"	t
+tests/CMakeFiles/byte_stream_two_writes.dir/rule	build/tests/Makefile	/^tests\/CMakeFiles\/byte_stream_two_writes.dir\/rule:$/;"	t
+tests/CMakeFiles/spongechecks.dir/rule	build/tests/Makefile	/^tests\/CMakeFiles\/spongechecks.dir\/rule:$/;"	t
+tidy	etc/clang_tidy.cmake	/^    add_custom_target (tidy DEPENDS ${ALL_TIDY_TARGETS})$/;"	t
+tidy_command	etc/clang_tidy.cmake	/^        set (tidy_command ${CLANG_TIDY} -checks=${CLANG_TIDY_CHECKS} -header-filter=.* -p=${PROJ/;"	v
+tidy_target_name	etc/clang_tidy.cmake	/^        set (tidy_target_name "${basedir}__${basename}")$/;"	v
+tidy_verbose	etc/clang_tidy.cmake	/^    add_custom_target (tidy_verbose DEPENDS ${ALL_TIDY_VERBOSE_TARGETS})$/;"	t
+time_point	libsponge/util/util.cc	/^    using time_point = std::chrono::steady_clock::time_point;$/;"	t	function:timestamp_ms	typeref:typename:std::chrono::steady_clock::time_point	file:
+timestamp_ms	libsponge/util/util.cc	/^uint64_t timestamp_ms() {$/;"	f	typeref:typename:uint64_t
+to_string	libsponge/util/address.cc	/^string Address::to_string() const {$/;"	f	class:Address	typeref:typename:string
+tun_req	libsponge/util/tun.cc	/^    struct ifreq tun_req {};$/;"	s	function:TunTapFD::TunTapFD	file:
+u16	libsponge/util/parser.cc	/^uint16_t NetParser::u16() { return _parse_int<uint16_t>(); }$/;"	f	class:NetParser	typeref:typename:uint16_t
+u16	libsponge/util/parser.cc	/^void NetUnparser::u16(string &s, const uint16_t val) { return _unparse_int<uint16_t>(s, val); }$/;"	f	class:NetUnparser	typeref:typename:void
+u32	libsponge/util/parser.cc	/^uint32_t NetParser::u32() { return _parse_int<uint32_t>(); }$/;"	f	class:NetParser	typeref:typename:uint32_t
+u32	libsponge/util/parser.cc	/^void NetUnparser::u32(string &s, const uint32_t val) { return _unparse_int<uint32_t>(s, val); }$/;"	f	class:NetUnparser	typeref:typename:void
+u8	libsponge/util/parser.cc	/^uint8_t NetParser::u8() { return _parse_int<uint8_t>(); }$/;"	f	class:NetParser	typeref:typename:uint8_t
+u8	libsponge/util/parser.cc	/^void NetUnparser::u8(string &s, const uint8_t val) { return _unparse_int<uint8_t>(s, val); }$/;"	f	class:NetUnparser	typeref:typename:void
+unix_error	libsponge/util/util.hh	/^    explicit unix_error(const std::string &attempt, const int error = errno)$/;"	f	class:unix_error
+unix_error	libsponge/util/util.hh	/^class unix_error : public tagged_error {$/;"	c
+util/address.cc.i	build/libsponge/Makefile	/^util\/address.cc.i:$/;"	t
+util/address.cc.o	build/libsponge/Makefile	/^util\/address.cc.o:$/;"	t
+util/address.cc.s	build/libsponge/Makefile	/^util\/address.cc.s:$/;"	t
+util/address.i	build/libsponge/Makefile	/^util\/address.i: util\/address.cc.i$/;"	t
+util/address.o	build/libsponge/Makefile	/^util\/address.o: util\/address.cc.o$/;"	t
+util/address.s	build/libsponge/Makefile	/^util\/address.s: util\/address.cc.s$/;"	t
+util/buffer.cc.i	build/libsponge/Makefile	/^util\/buffer.cc.i:$/;"	t
+util/buffer.cc.o	build/libsponge/Makefile	/^util\/buffer.cc.o:$/;"	t
+util/buffer.cc.s	build/libsponge/Makefile	/^util\/buffer.cc.s:$/;"	t
+util/buffer.i	build/libsponge/Makefile	/^util\/buffer.i: util\/buffer.cc.i$/;"	t
+util/buffer.o	build/libsponge/Makefile	/^util\/buffer.o: util\/buffer.cc.o$/;"	t
+util/buffer.s	build/libsponge/Makefile	/^util\/buffer.s: util\/buffer.cc.s$/;"	t
+util/eventloop.cc.i	build/libsponge/Makefile	/^util\/eventloop.cc.i:$/;"	t
+util/eventloop.cc.o	build/libsponge/Makefile	/^util\/eventloop.cc.o:$/;"	t
+util/eventloop.cc.s	build/libsponge/Makefile	/^util\/eventloop.cc.s:$/;"	t
+util/eventloop.i	build/libsponge/Makefile	/^util\/eventloop.i: util\/eventloop.cc.i$/;"	t
+util/eventloop.o	build/libsponge/Makefile	/^util\/eventloop.o: util\/eventloop.cc.o$/;"	t
+util/eventloop.s	build/libsponge/Makefile	/^util\/eventloop.s: util\/eventloop.cc.s$/;"	t
+util/file_descriptor.cc.i	build/libsponge/Makefile	/^util\/file_descriptor.cc.i:$/;"	t
+util/file_descriptor.cc.o	build/libsponge/Makefile	/^util\/file_descriptor.cc.o:$/;"	t
+util/file_descriptor.cc.s	build/libsponge/Makefile	/^util\/file_descriptor.cc.s:$/;"	t
+util/file_descriptor.i	build/libsponge/Makefile	/^util\/file_descriptor.i: util\/file_descriptor.cc.i$/;"	t
+util/file_descriptor.o	build/libsponge/Makefile	/^util\/file_descriptor.o: util\/file_descriptor.cc.o$/;"	t
+util/file_descriptor.s	build/libsponge/Makefile	/^util\/file_descriptor.s: util\/file_descriptor.cc.s$/;"	t
+util/parser.cc.i	build/libsponge/Makefile	/^util\/parser.cc.i:$/;"	t
+util/parser.cc.o	build/libsponge/Makefile	/^util\/parser.cc.o:$/;"	t
+util/parser.cc.s	build/libsponge/Makefile	/^util\/parser.cc.s:$/;"	t
+util/parser.i	build/libsponge/Makefile	/^util\/parser.i: util\/parser.cc.i$/;"	t
+util/parser.o	build/libsponge/Makefile	/^util\/parser.o: util\/parser.cc.o$/;"	t
+util/parser.s	build/libsponge/Makefile	/^util\/parser.s: util\/parser.cc.s$/;"	t
+util/socket.cc.i	build/libsponge/Makefile	/^util\/socket.cc.i:$/;"	t
+util/socket.cc.o	build/libsponge/Makefile	/^util\/socket.cc.o:$/;"	t
+util/socket.cc.s	build/libsponge/Makefile	/^util\/socket.cc.s:$/;"	t
+util/socket.i	build/libsponge/Makefile	/^util\/socket.i: util\/socket.cc.i$/;"	t
+util/socket.o	build/libsponge/Makefile	/^util\/socket.o: util\/socket.cc.o$/;"	t
+util/socket.s	build/libsponge/Makefile	/^util\/socket.s: util\/socket.cc.s$/;"	t
+util/tun.cc.i	build/libsponge/Makefile	/^util\/tun.cc.i:$/;"	t
+util/tun.cc.o	build/libsponge/Makefile	/^util\/tun.cc.o:$/;"	t
+util/tun.cc.s	build/libsponge/Makefile	/^util\/tun.cc.s:$/;"	t
+util/tun.i	build/libsponge/Makefile	/^util\/tun.i: util\/tun.cc.i$/;"	t
+util/tun.o	build/libsponge/Makefile	/^util\/tun.o: util\/tun.cc.o$/;"	t
+util/tun.s	build/libsponge/Makefile	/^util\/tun.s: util\/tun.cc.s$/;"	t
+util/util.cc.i	build/libsponge/Makefile	/^util\/util.cc.i:$/;"	t
+util/util.cc.o	build/libsponge/Makefile	/^util\/util.cc.o:$/;"	t
+util/util.cc.s	build/libsponge/Makefile	/^util\/util.cc.s:$/;"	t
+util/util.i	build/libsponge/Makefile	/^util\/util.i: util\/util.cc.i$/;"	t
+util/util.o	build/libsponge/Makefile	/^util\/util.o: util\/util.cc.o$/;"	t
+util/util.s	build/libsponge/Makefile	/^util\/util.s: util\/util.cc.s$/;"	t
+val1	doctests/parser_example.cc	/^const uint32_t val1 = 0xdeadbeef;$/;"	v	typeref:typename:const uint32_t
+val2	doctests/parser_example.cc	/^const uint16_t val2 = 0xc0c0;$/;"	v	typeref:typename:const uint16_t
+val3	doctests/parser_example.cc	/^const uint8_t val3 = 0xff;$/;"	v	typeref:typename:const uint8_t
+val4	doctests/parser_example.cc	/^const uint32_t val4 = 0x0c05fefe;$/;"	v	typeref:typename:const uint32_t
+value	libsponge/util/util.cc	/^uint16_t InternetChecksum::value() const {$/;"	f	class:InternetChecksum	typeref:typename:uint16_t
+volatile	build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+wait_next_event	libsponge/util/eventloop.cc	/^EventLoop::Result EventLoop::wait_next_event(const int timeout_ms) {$/;"	f	class:EventLoop	typeref:typename:EventLoop::Result
+webget	build/Makefile	/^webget: cmake_check_build_system$/;"	t
+webget	build/apps/Makefile	/^webget: apps\/CMakeFiles\/webget.dir\/rule$/;"	t
+webget.cc.i	build/apps/Makefile	/^webget.cc.i:$/;"	t
+webget.cc.o	build/apps/Makefile	/^webget.cc.o:$/;"	t
+webget.cc.s	build/apps/Makefile	/^webget.cc.s:$/;"	t
+webget.i	build/apps/Makefile	/^webget.i: webget.cc.i$/;"	t
+webget.o	build/apps/Makefile	/^webget.o: webget.cc.o$/;"	t
+webget.s	build/apps/Makefile	/^webget.s: webget.cc.s$/;"	t
+webget/fast	build/Makefile	/^webget\/fast:$/;"	t
+webget/fast	build/apps/Makefile	/^webget\/fast:$/;"	t
+what	libsponge/util/util.hh	/^    const char *what() const noexcept override { return _attempt_and_error.c_str(); }$/;"	f	class:tagged_error	typeref:typename:const char *
+with_bytes_written	tests/byte_stream_test_harness.cc	/^Write &Write::with_bytes_written(const size_t bytes_written) {$/;"	f	class:Write	typeref:typename:Write &
+write	libsponge/byte_stream.cc	/^size_t ByteStream::write(const string &data) {$/;"	f	class:ByteStream	typeref:typename:size_t
+write	libsponge/util/file_descriptor.cc	/^size_t FileDescriptor::write(BufferViewList buffer, const bool write_all) {$/;"	f	class:FileDescriptor	typeref:typename:size_t
+write	libsponge/util/file_descriptor.hh	/^    size_t write(const char *str, const bool write_all = true) { return write(BufferViewList(str/;"	f	class:FileDescriptor	typeref:typename:size_t
+write	libsponge/util/file_descriptor.hh	/^    size_t write(const std::string &str, const bool write_all = true) { return write(BufferViewL/;"	f	class:FileDescriptor	typeref:typename:size_t
+write_count	libsponge/util/file_descriptor.hh	/^    unsigned int write_count() const { return _internal_fd->_write_count; }$/;"	f	class:FileDescriptor	typeref:typename:unsigned int
+~ByteStreamAction	tests/byte_stream_test_harness.cc	/^ByteStreamAction::~ByteStreamAction() {}$/;"	f	class:ByteStreamAction
+~ByteStreamExpectation	tests/byte_stream_test_harness.cc	/^ByteStreamExpectation::~ByteStreamExpectation() {}$/;"	f	class:ByteStreamExpectation
+~ByteStreamTestStep	tests/byte_stream_test_harness.cc	/^ByteStreamTestStep::~ByteStreamTestStep() {}$/;"	f	class:ByteStreamTestStep
+~FDWrapper	libsponge/util/file_descriptor.cc	/^FileDescriptor::FDWrapper::~FDWrapper() {$/;"	f	class:FileDescriptor::FDWrapper
