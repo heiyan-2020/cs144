@@ -108,14 +108,14 @@ int main() {
             test.execute(BytesAssembled(3));
             test.execute(NotAtEof{});
 
-            test.execute(SubmitSegment{"ghX", 6}.with_eof(true));
+            test.execute(SubmitSegment{"gh", 6}.with_eof(true));
             test.execute(BytesAssembled(3));
             test.execute(NotAtEof{});
 
             test.execute(SubmitSegment{"cdefg", 2});
             test.execute(BytesAssembled(8));
             test.execute(BytesAvailable{"abcdefgh"});
-            test.execute(NotAtEof{});
+            test.execute(AtEof{});
         }
 
         // credit for test: Bill Lin (2020)

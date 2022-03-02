@@ -49,6 +49,10 @@ int main() {
 
             auto result = read(buf);
             if (buf.stream_out().bytes_written() != offset) {  // read bytes
+                // std::cout << result << std::endl;
+                // std::cout << "----------------------------" << std::endl;
+                // std::cout << d << std::endl;
+                // std::cout << "offset=" << offset << ", but got" << buf.stream_out().bytes_written() << std::endl;
                 throw runtime_error("test 1 - number of bytes RX is incorrect");
             }
             if (!equal(result.cbegin(), result.cend(), d.cbegin())) {

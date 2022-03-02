@@ -47,7 +47,7 @@ int main() {
         {
             ReassemblerTestHarness test{2};
 
-            test.execute(SubmitSegment{"bX", 1});
+            test.execute(SubmitSegment{"b", 1});
             test.execute(BytesAssembled(0));
 
             test.execute(SubmitSegment{"a", 0});

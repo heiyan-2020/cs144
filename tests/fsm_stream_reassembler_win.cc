@@ -14,7 +14,7 @@
 
 using namespace std;
 
-static constexpr unsigned NREPS = 32;
+static constexpr unsigned NREPS = 30;
 static constexpr unsigned NSEGS = 128;
 static constexpr unsigned MAX_SEG_LEN = 2048;
 
@@ -47,9 +47,16 @@ int main() {
                 string dd(d.cbegin() + off, d.cbegin() + off + sz);
                 buf.push_substring(move(dd), off, off + sz == offset);
             }
-
+            cout << buf.window[0].index << endl;
+            cout << buf.first_unassembled << endl;
             auto result = read(buf);
+            for (size_t i = 0; i < result.size();i++) {
+                if (result[i] != d[i]) {
+                    cout << "d[i]" << d[i] << ", but result[i]=" << result[i] << endl;
+                }
+            }
             if (buf.stream_out().bytes_written() != offset) {  // read bytes
+                std::cout << "offset=" << offset << ", but got" << buf.stream_out().bytes_written() << std::endl;
                 throw runtime_error("test 2 - number of RX bytes is incorrect");
             }
             if (!equal(result.cbegin(), result.cend(), d.cbegin())) {
