@@ -20,7 +20,7 @@
 //! use this class to compare the "official" states with Sponge's
 //! sender/receiver states and two variables that belong to the
 //! overarching TCPConnection object.
-class TCPState {
+class   TCPState {
   private:
     std::string _sender{};
     std::string _receiver{};

@@ -260,7 +260,7 @@ void TCPSpongeSocket<AdaptT>::_tcp_main() {
         shutdown(SHUT_RDWR);
         if (not _tcp.value().active()) {
             cerr << "DEBUG: TCP connection finished "
-                 << (_tcp.value().state() == TCPState::State::RESET ? "uncleanly" : "cleanly.\n");
+                 << (_tcp.value().state() == TCPState::State::RESET ? "uncleanly\n" : "cleanly.\n");
         }
         _tcp.reset();
     } catch (const exception &e) {

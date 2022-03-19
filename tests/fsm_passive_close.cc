@@ -22,9 +22,7 @@ int main() {
             TCPTestHarness test_1 = TCPTestHarness::in_last_ack(cfg);
 
             test_1.execute(Tick(4 * cfg.rt_timeout));
-
             test_1.execute(ExpectState{State::LAST_ACK});
-
             test_1.send_ack(WrappingInt32{2}, WrappingInt32{2});
             test_1.execute(Tick(1));
 
@@ -34,11 +32,8 @@ int main() {
         // test #2: start in CLOSE_WAIT, close(), throw away first FIN, ack re-tx FIN
         {
             TCPTestHarness test_2 = TCPTestHarness::in_close_wait(cfg);
-
             test_2.execute(Tick(4 * cfg.rt_timeout));
-
             test_2.execute(ExpectState{State::CLOSE_WAIT});
-
             test_2.execute(Close{});
             test_2.execute(Tick(1));
 

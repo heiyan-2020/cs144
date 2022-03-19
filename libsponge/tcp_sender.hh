@@ -5,6 +5,7 @@
 #include "tcp_config.hh"
 #include "tcp_segment.hh"
 #include "wrapping_integers.hh"
+#include "tcp_timer.hh"
 
 #include <functional>
 #include <queue>
@@ -25,15 +26,45 @@ class TCPSender {
 
     //! retransmission timer for the connection
     unsigned int _initial_retransmission_timeout;
-
+    size_t _rto;
     //! outgoing stream of bytes that have not yet been sent
     ByteStream _stream;
 
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
+    bool fin_sent{false};
+    bool smell{false};
+    // total alive time of sender.
+    size_t _alive_time{0};
+
+    //timer
+    TCPTimer timer{};
+
+    //receiver's window size.
+    size_t _window_size{0};
+    // uint64_t _last_ackno{0};
+
+    //outstanding segments.
+    struct Seg{
+      uint64_t abs_seqno;
+      Buffer seg;
+      bool operator<(const Seg b) const { return abs_seqno < b.abs_seqno; }
+      bool operator > (const Seg b) const{
+        return abs_seqno > b.abs_seqno;
+      }
+    };
+    priority_queue<Seg, vector<Seg>, greater<Seg>> _cache{};
+
+    //assemble a segment with certain payload.
+    void send_seg(const string &data, const bool syn, const bool fin);
+
+    //
+    void retrans();
+    size_t _consecutive_restransmissions{0};
 
   public:
     //! Initialize a TCPSender
+    uint64_t _last_ackno{0};
     TCPSender(const size_t capacity = TCPConfig::DEFAULT_CAPACITY,
               const uint16_t retx_timeout = TCPConfig::TIMEOUT_DFLT,
               const std::optional<WrappingInt32> fixed_isn = {});

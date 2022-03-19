@@ -4,7 +4,7 @@
 #include "util.hh"
 
 #include <variant>
-
+#include <iostream>
 using namespace std;
 
 //! \param[in] buffer string/Buffer to be parsed
@@ -12,10 +12,9 @@ using namespace std;
 ParseResult TCPSegment::parse(const Buffer buffer, const uint32_t datagram_layer_checksum) {
     InternetChecksum check(datagram_layer_checksum);
     check.add(buffer);
-    if (check.value()) {
-        return ParseResult::BadChecksum;
-    }
-
+    // if (check.value()) {
+    //     return ParseResult::BadChecksum;
+    // }
     NetParser p{buffer};
     _header.parse(p);
     _payload = p.buffer();

@@ -102,6 +102,7 @@ _socat_connect () {
 
 _rt_listen () {
     coproc $3 -l $4 ${SERVER_PORT} >"$1" <"$2" && sleep 0.1
+    echo "$?"
     set +u
     [ -z "$COPROC_PID" ] && { echo "Error in _rt_listen"; exit 1; }
     set -u
@@ -169,6 +170,7 @@ trap exit_cleanup EXIT
 get_cmdline_options "$@"
 
 . "$(dirname "$0")"/etc/tunconfig
+echo "$0"
 REF_HOST=${TUN_IP_PREFIX}.144.1
 TEST_HOST=${TUN_IP_PREFIX}.144.1
 SERVER_PORT=$(($((RANDOM % 50000)) + 1025))
@@ -232,6 +234,8 @@ fi
 
 HASH_OUT=$(hash_file ${TEST_OUT_FILE})
 if [ ! -z "${HASH_OUT2}" ] && [ "${HASH_OUT}" != "${HASH_OUT2}" ] || [ "${HASH_IN}" != "${HASH_OUT}" ]; then
+    mv "${TEST_OUT_FILE}" ~
+    mv "${TEST_IN_FILE}" ~
     echo ERROR: "$HASH_IN" neq "$HASH_OUT" or "$HASH_OUT2"
     exit 1
 fi

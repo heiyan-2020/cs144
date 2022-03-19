@@ -49,14 +49,12 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
             continue;
         }
         Slice s = {l, r - l, data.substr(l - index, r - l)};
-        //cout << s.data << endl;
         if (r - l + _unassembled + _output.buffer_size() > _capacity) {
             s.len = _capacity - (_unassembled + _output.buffer_size());
             s.data = data.substr(l - index, s.len);
             window.push_back(s);
             push_heap(window.begin(), window.end(), greater<Slice>());
             _unassembled += s.len;
-            //cout << s.data << endl;
             break;
         }
         window.push_back(s);
@@ -65,7 +63,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
     }
     while (!window.empty() && window[0].index == first_unassembled) {
         _output.write(window[0].data);
-        first_unassembled += window[0].len; 
+        first_unassembled += window[0].len;
         _unassembled -= window[0].len;
         if (_eof && last_byte == window[0].index + window[0].len) {
             _output.end_input();
@@ -73,6 +71,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
         pop_heap(window.begin(), window.end(), greater<Slice>());
         window.pop_back();
     }
+
 }
 
 priority_queue<uint64_t, vector<uint64_t>, greater<uint64_t>> StreamReassembler::distinguish(uint64_t begin, uint64_t end) {
@@ -99,7 +98,6 @@ priority_queue<uint64_t, vector<uint64_t>, greater<uint64_t>> StreamReassembler:
         }
     }
     q.push(begin), q.push(end);
-    cout << "begin = " << begin << ", end = " << end << endl;
     return q;
 }
 

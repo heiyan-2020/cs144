@@ -51,7 +51,7 @@ int main() {
                 test_1.execute(Tick(i));
                 check_segment(test_1, data, false, __LINE__);
             }
-
+            
             test_1.execute(ExpectState{State::ESTABLISHED});
 
             test_1.execute(Tick(1 + (cfg.rt_timeout << TCPConfig::MAX_RETX_ATTEMPTS)));

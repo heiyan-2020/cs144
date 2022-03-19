@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include <unistd.h>
 #include <utility>
+#include <iostream>
 
 using namespace std;
 
@@ -32,22 +33,26 @@ optional<TCPSegment> TCPOverIPv4Adapter::unwrap_tcp_in_ip(const InternetDatagram
 
     // is the IPv4 datagram from our peer?
     if (not listening() and (ip_dgram.header().src != config().destination.ipv4_numeric())) {
+
         return {};
     }
 
     // does the IPv4 datagram claim that its payload is a TCP segment?
     if (ip_dgram.header().proto != IPv4Header::PROTO_TCP) {
+
         return {};
     }
 
     // is the payload a valid TCP segment?
     TCPSegment tcp_seg;
     if (ParseResult::NoError != tcp_seg.parse(ip_dgram.payload(), ip_dgram.header().pseudo_cksum())) {
+
         return {};
     }
 
     // is the TCP segment for us?
     if (tcp_seg.header().dport != config().source.port()) {
+
         return {};
     }
 
@@ -64,6 +69,7 @@ optional<TCPSegment> TCPOverIPv4Adapter::unwrap_tcp_in_ip(const InternetDatagram
 
     // is the TCP segment from our peer?
     if (tcp_seg.header().sport != config().destination.port()) {
+  
         return {};
     }
 

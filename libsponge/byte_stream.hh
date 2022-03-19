@@ -20,7 +20,7 @@ class ByteStream {
     bool _error{};  //!< Flag indicating that the stream suffered an error.
     std::deque<char> buffer{};
     size_t _capacity = 0;
-    bool _end{};
+    bool _end{false};
     uint64_t bytesRead = 0;
     uint64_t bytesWrite = 0;
 
